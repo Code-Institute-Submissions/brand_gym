@@ -1,5 +1,4 @@
         
-        
         // Variables 
         const footerCont = document.querySelectorAll('.footer-cont');
         const footerContacts = document.querySelectorAll('.footer-contact-cont');
