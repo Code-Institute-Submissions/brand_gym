@@ -1,0 +1,387 @@
+/*---------------------------------------------------------   GENERALS   */
+
+        * 
+        {
+            font-size: 15px;
+        }
+        
+        .uppercase 
+        {
+            text-transform: uppercase;
+        }
+
+        a 
+        {
+            text-decoration: none;
+        }
+        
+        a:hover
+        {
+            color: #000;
+            text-decoration: none;
+        }
+        
+        
+
+        
+/*---------------------------------------------------------   MAIN CONTAINERS   */    
+        
+        .main-cont 
+        {
+            height: 90vh;
+            width: 100vw;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            overflow: hidden;
+            background: url(fabien-bazanegue-8kEEEe0eY2w-unsplash.jpg) center;
+            background-size: cover;
+        }
+        .main-cont:before
+        {
+            content: '';
+            position: absolute;
+            width: 100%;
+            height: 100%;
+/*            background: #9bdc28;*/
+/*            background: #D76C66;*/
+            background: #2C5990;
+            opacity: .9;
+        }
+
+/*---------------------------------------------------------   HEADLINES   */    
+        
+        .location-headline
+        {
+            position: relative;
+            font-size: 4em;
+            color: #fafafa;
+            font-weight: bolder;
+            margin-bottom: 40px;
+            padding-bottom: 20px;
+            word-spacing: 5px;
+            letter-spacing: 4px;
+        }
+
+        .location-card-headline 
+        {
+            position: relative;
+            font-size: 1.5em;
+            font-weight: bolder;
+            padding-bottom: 15px;
+            color: #000;
+        }
+        .headline:before 
+        {
+            content: '';
+            position: absolute;
+            left: 50%;
+            bottom: 5px;
+            transform: translateX(-50%);
+            width: 20%;
+            height: 5px;
+            background: darkorange;
+        }
+        
+        
+/*
+
+        .btn {
+            display: flex;
+            height: 100%;
+            justify-content: center;
+            align-items: center;
+            font-weight: bold;
+            font-family: sans-serif;
+            transition: ease 1s;
+            transition-delay: .5s
+        }
+*/
+
+
+/*--------------------------------------------- CARDS   */
+
+        
+/*      Card Rows         */
+        .location-cards-row
+        {
+            display: flex;
+            justify-content: center;
+            width: 100%;
+        }
+
+        .location-cards-cont 
+        {
+            display: flex;
+            flex-wrap: wrap;
+            border-radius: 2px;
+            padding: 0 10%;
+        }
+
+        .location-card-cont 
+        {
+            position: relative;
+            margin: 10px 20px;
+            background: #525252;
+            padding: 15px;
+            border-radius: 2px;
+            height: 280px;
+            width: 243px;
+/*            width: 260px;*/
+/*            width: 270px;*/
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-around;
+            overflow: hidden;
+            cursor: pointer;
+        }
+        
+        
+
+
+
+/*      Location Card Hover - Slide Up Picture     */
+        .location-card-cont:hover .location-card-bg 
+        {
+            transform: translateY(-101%);
+        }
+        .location-card-cont:hover .location-card-location 
+        {
+            opacity: 0;
+        }
+        
+        
+        
+        
+  /*--------------------------------------------- CARD BACKGROUNDS   */
+        
+        .location-card-bg 
+        {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 85%;
+            z-index: 3;
+            transition: .3s;
+            transition-delay: .3s;
+            
+            transition: .24s;
+            transition-delay: .3s;
+        }
+        
+        .locations-strength-bg 
+        {
+            background: url("woman-lifting-two-dumbells-on-both-hands-in-front-of-mirror-1886487.jpg");
+            background-size: cover;
+        }
+
+        .locations-cardio-bg 
+        {
+            background: url("victor-freitas-E2FLRJtZx2E-unsplash.jpg") center;
+            background-size: cover;
+        }
+        
+        .locations-fitness-bg
+        {
+            background: url(sven-mieke-optBC2FxCfc-unsplash.jpg) 28%;
+            background-size: cover;
+        }
+        
+        .locations-stretch-bg
+        {
+            background: url(geert-pieters-3RnkZpDqsEI-unsplash.jpg) center;
+            background-size: cover;
+            filter: grayscale(.2);
+        }
+        
+        .locations-water-bg
+        {
+            background: url(person-swimming-on-body-of-water-863988.jpg) center;
+            filter: grayscale(.5);
+            background-size: cover;
+        }
+        
+        .locations-activities-bg
+        {
+            background: url(perry-grone-lbLgFFlADrY-unsplash.jpg) center;
+            background-size: cover;
+            filter: grayscale(.3);
+        }
+        
+        
+/*--------------------------------------------- SPECIALS - ICONS   */
+
+        
+        .specials-cont 
+        {
+            list-style: none;
+            padding: 0;
+        }
+
+        .specials 
+        {
+            margin: 5px 0px;
+            color: #fafafa;
+        }
+
+        .specials-icon-cont
+        {
+            margin-right: 12px;
+            display: inline-block;
+            width: 15px;
+            text-align: center;
+        }
+        
+        .specials-icon 
+        {
+            color: darkorange;
+        }
+        
+        
+/*---------------------------------------------  CARD BOTTOM PART    */
+
+
+/*      Card Button        */
+        .location-card-btn 
+        {
+            padding: 8px 13px;
+            font-weight: bolder;
+            background: darkorange;
+            border: none;
+            border-radius: 2px;
+            font-size: 1.16em;
+            color: #000;
+        }
+
+        
+/*      Course - Txt            */
+        .location-card-location 
+        {
+            position: absolute;
+            width: 100%;
+            font-size: 1.2em;
+            letter-spacing: 5px;
+            bottom: -3%;
+            left: 50%;
+            transform: translateX(-50%);
+            font-weight: bolder;
+            color: #fafafa;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: #525252;
+            z-index: 3;
+            
+/*          Transition            */
+            transition: .1s;
+            transition-delay: .45s;
+        }
+        
+
+/*      Card Content Slide in ->        */
+        .location-card-headline,
+        .specials-cont,
+        .location-card-btn 
+        {
+            transform: translateX(-180%);
+            transition: .2s;
+            opacity: 0;
+            
+/*          Transition  - Animation for Slide in Content   */
+            animation: location-card-slide 1s ease forwards;
+            transition-delay: 1s;
+            transition: .1s;
+            transition-delay: .5s;
+        }
+
+        
+/*      Card Content Slides back Out      */
+        .location-card-cont:hover .location-card-headline,
+        .location-card-cont:hover .specials-cont,
+        .location-card-cont:hover .location-card-btn 
+        {
+            transform: translateX(0);
+            opacity: 1;
+        }
+        
+        
+        
+        
+/*        ````````````````````````````````````````*/
+/*         
+        .nav-arrow-cont */
+        /* {
+            position: absolute;
+            top: 90%;
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            padding: 0 51px;
+        }
+        
+        .nav-arrow
+        {
+            width: 60px;
+            height: 60px;
+            color: #000;
+            background: rgba(255,255,255,1);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 2px;
+            font-size: 1.6em;
+            opacity: .5;
+            transition: .2s;
+            cursor: pointer;
+        }
+    
+        .nav-arrow:hover
+        {
+            opacity: .8;
+        } */
+        
+        
+/*--------------------------------------------- MEDIA QUERIES   */
+
+        
+        @media only screen and (max-width: 768px) {
+            
+            .main-cont
+            {
+                height: auto;
+            }
+            
+            .location-cards-row
+            {
+                flex-wrap: wrap;
+            }
+            
+            .location-card-cont
+            {
+                margin: 1%;
+            }
+        }
+        
+        
+        
+        @media only screen and (max-width: 576px) {
+            
+            .location-headline
+            {
+                font-size: 2.5em;
+                margin-top: 10%;
+            }
+            
+            .location-card-cont
+            {
+                height: auto;
+                width: 260px;
+                margin: 5px;
+            }
+        }
+        
+        
+        
