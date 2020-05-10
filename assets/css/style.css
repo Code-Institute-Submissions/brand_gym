@@ -1,0 +1,1322 @@
+        
+        
+/*---------------------------------------------------------  GENERAL  */
+        
+        
+        .uppercase 
+        {
+            text-transform: uppercase;
+        }
+        
+        .resp-none
+        {
+            display: none;
+        }
+        
+        .disp-none
+        {
+            display: none !important;
+        }
+        
+        a
+        {
+            color: #000;
+            text-decoration: none;
+        }
+        a:hover
+        {
+            color: #000;
+            text-decoration: none;
+        }
+        
+        
+        .flex-center 
+        {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        
+/*---------------------------------------------------------  BUTTONS  */
+        
+        
+        .bttn 
+        {
+            background: orange;
+            font-weight: bolder;
+            border: none;
+            border-radius: 2px;
+        }
+        
+        .btn-cont {
+            overflow: hidden;
+            position: relative;
+            width: 450px;
+            height: 70px;
+        }
+         
+
+/*---------------------------------------------------------  MAIN-CONTAINERS  */
+        
+        .home
+        {
+            position: relative;
+        }
+        .home:before
+        {
+            content: '';
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            background: rgba(0,0,0,.1);
+            transition: .5s;
+            opacity: 1;
+        }
+           
+
+        .main 
+        {
+            max-height: 100vh;
+            height: 100vh;
+/*            overflow: hidden;*/
+        }
+        
+        .main-cont-home {
+            position: relative;
+            height: 90vh;
+            width: 100vw;
+            background: url(200350.jpg);
+            background-size: cover;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+/*            overflow: hidden;*/
+        }
+        .main-cont-home:before
+        {
+            content: '';
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            background: crimson;
+            animation: ani-bg-filter 5s forwards ease-in-out;
+            animation-delay: 2s;
+        }
+/*      Animation for Bagground becoming more transparent   */
+        @keyframes ani-bg-filter
+        {
+            to
+            {
+                opacity: .8;
+            }
+        }
+
+
+
+/*---------------------------------------------------------  SLIDE BUTTON  */
+        
+/*      Animation for Slide Button      */
+        .slide-btn {
+            position: relative;
+            padding: 20px 100px 20px 30px;
+            border: none;
+            background: darkorange;
+            position: absolute;
+            font-weight: bolder;
+            font-size: 20px;
+            transition: .3s;
+            border-radius: 2px;
+            transform: translateX(-101%);
+            cursor: pointer;
+            transform: scale(.9);
+            opacity: 0;
+            
+            animation: ani-btn-apper-scale .5s forwards;
+            animation-delay:  5.2s;
+        }
+        .slide-btn:hover .forward-btn-link
+        {
+            
+            transform: scale(1);
+            text-decoration: none;
+            color: rgba(0,0,0,.8);
+        }
+        .slide-btn:hover .arrow
+        {
+            transform: translateY(-50%) translateX(4px);
+        }
+
+/*      Animation - Slide To Right    */
+        @keyframes slide-to-right {
+            to {
+                transform: translateX(0)
+            }
+        }
+        
+        .arrow
+        {
+            width: 50px;
+            height: 50px;
+            position: absolute;
+            right: 15px;
+            top: 52%;
+            transform: translateY(-50%);
+            transition: .5s;
+            transition-delay: .3s;
+        }
+        
+        .forward-btn-link
+        {
+            color: rgba(0,0,0,.8);
+            animation: 3pear .4s forwards ease;
+            animation-delay: 5.38s;
+            opacity: 0;
+            transform: scale(.9);
+        }
+
+
+/*---------------------------------------------------------  HEADER  */
+
+        header {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 10vh;
+            display: flex;
+            align-items: center;
+        }
+
+        .logo {
+            height: 50px;
+            margin-right: 50px;
+            font-size: 30px;
+            font-weight: bold;
+
+            background: url(v356-tang-13-exerciseset_1_1.jpg);
+            background-size: cover;
+        }
+
+        .login-btn {
+            padding: 5px 10px;
+            font-size: small;
+            cursor: pointer;
+            background: darkorange;
+        }
+        .login-btn:hover
+        {
+            background: rgba(255,140,0,.9);
+        }
+
+        
+        
+/*---------------------------------------------------------  SIDEBAR  */
+
+
+        .side-menu 
+        {
+            height: 90vh;
+            animation-delay: 2.5s;
+            animation: ani-slide-bg-footer 1s forwards;
+            overflow: hidden;
+        }
+        
+        .menu-sidebar {
+            display: flex;
+            flex-direction: column;
+        }
+        
+        .menu-li-cont {
+            position: relative;
+            box-shadow: 20px 1px 3px rgba(0, 0, 0, .5);
+            box-shadow: 0px 1px 3px #525252;
+/*            background: rgba(179, 0, 179, 1);*/
+/*            background: #525252;*/
+/*            background: rgba(249, 53, 125,1);*/
+/*            background: #11998e;*/
+/*            background: #38ef7d;*/
+/*            background: #4b134f;*/
+/*            background: #c94b4b;*/
+/*            background: #3C3B3F;*/
+/*            background: #605C3C;*/
+/*            background: #CB356B;*/
+/*            background: #BD3F32;*/
+/*            background: #45a247;*/
+/*            background: #8e44ad;*/
+/*            background: #155799;*/
+/*            background: #159957;*/
+/*            background: #1CB5E0;*/
+/*            background: #2F80ED;*/
+/*            background: #0f3443;*/
+/*            background: #6190E8;*/
+/*            background: #203A43;*/
+/*            background: #243B55;*/
+/*This one*/
+            background: #434343;
+            height: 15vh;
+            font-weight: bolder;
+            letter-spacing: 1px;
+            cursor: pointer;
+        }
+        .menu-li-cont:before
+        {
+            content: '';
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            background: rgba(0,0,0,.5);
+            transition: .5s;
+            opacity: 0;
+        }
+        .menu-li-cont:hover.menu-li-cont:before
+        {
+            opacity: 1;
+        }
+        
+        .menu-fas
+        {
+            color: #fafafa;
+            position: absolute;
+            top: 50%;
+            left: 20%;
+            font-size: 1.6em;
+            transform: translate(-50%, -50%);
+        }
+        
+/*      Member List Item     */
+        .menu-li-member:before
+        {
+            content: '';
+            position: absolute;
+            width: 35%;
+            height: 5px;
+            background: darkorange;
+            bottom: -.1em;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+
+
+/*---------------------------------------------------------  FOOTER  */
+
+
+        footer {
+            height: 10vh;
+            background: #525252;
+        }
+
+        .footer-cont {
+            height: 10vh;
+            position: relative;
+            display: flex;
+            align-items: center;
+        }
+
+        .footer-fas
+        {
+            color: crimson;
+            font-size: 3em;
+        }
+        
+        .logo,
+        .footer-icon-cont {
+            width: 60px;
+            height: 73px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-left: 50px;
+        }
+          
+/*      Follow us  */
+        .socials-span
+        {
+            position: absolute;
+            right: 50px;
+            top: 50%;
+            transform: translateY(-50%);
+            font-weight: bolder;
+            color: #fafafa;
+        }
+
+/*---------------------------------------------------------  FOOTER TOGGLE BUTTONS  */
+
+        
+        
+        /*      Footer Toggle Button*/
+        .footer-contact-toggle-btn
+        {
+            border-radius: 2px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            cursor: pointer;
+            opacity: .8;
+            font-size: 1.3em;
+        }
+        
+        .footer-contact-hide-btn
+        {
+            
+            position: absolute;
+            top: 50%;
+            right: -40%;
+            width: 25px;
+            height: 25px;
+            transform: translateY(-50%);
+            color: #000;
+            background: rgba(255,255,255,.8);
+        }
+        .footer-contact-hide-btn:hover
+        {
+            opacity: 1;
+            box-shadow: .2px .3px 5px rgba(255,255,255,.8);
+        }
+        
+        .footer-contact-reveal-btn
+        {
+            margin-left: 50px;
+            font-size: smaller;
+            font-weight: bold;
+            padding: 2px 10px;
+            border: solid 2px #525252;
+        }
+        .footer-contact-reveal-btn:hover
+        {
+            background:  rgba(255,255,255,.1);
+            border-radius: 5px;
+            color: ;
+        }
+        
+        .footer-contact-reveal-btn .fas
+        {
+            margin-right: 5px;
+            color: darkorange;
+        }
+
+
+/*---------------------------------------------------------  HEADLINE  */
+        
+                
+        .headline-home
+        {
+            position: relative;
+            text-align: center;
+            font-size: 4.5em;
+            margin-bottom: 80px;
+            letter-spacing: 3px;
+            font-weight: bold;
+            color: rgba(255,255,255,.6);
+            transform: translateY(0%);
+            opacity: 0;
+            
+            animation: appear-slide-up-home .75s forwards ease;
+            animation-delay: 2.7s;
+        }
+
+        .headline-home:before
+        {
+            content: '';
+            position: absolute;
+            width: 15%;
+            height: 5px;
+            background: darkorange;
+            bottom: -.3em;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+/*      Headline Animation       */        
+        @keyframes appear-slide-up-home
+        {
+            0%
+            {
+                transform: translateY(70%);
+                opacity: 0;
+            }
+            50%
+            {
+                opacity: 1
+                
+            }
+            100%
+            {
+                transform: translateY(0);
+                opacity: 1;
+            }
+        }
+        
+        
+        
+        
+/*---------------------------------------------------------  TXT AREA  */
+
+        
+        .content-area-cont 
+        {
+            flex-direction: column;
+            padding: 0;
+        }
+        
+        .content-txt-cont:before
+        {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 0%;
+            height: 100%;
+            background: #525252;
+            
+            animation: ani-txt-bg .6s forwards;
+            animation-delay: 4.38s;
+        }
+        
+        .content-txt-cont {
+            position: relative;
+            width: 90%;
+/*            width: 45em;*/
+            max-width: 55.3em;
+            color: #fafafa;
+            padding: 30px 20px;
+            line-height: 1.6em;
+            letter-spacing: .2px;
+            margin-bottom: 30px;
+            font-weight: bolder;
+            font-size: 1.1em;
+            text-align: center;
+            border-radius: 2px;
+        }
+        
+/*      TXT Appear Animation      */
+        @keyframes txt-appear
+        {
+            to
+            {
+                opacity: 1;
+                transform: scale(1);
+            }
+        }
+        
+/*      Txt              */
+        .content-txt-cont p
+        {
+            opacity: 0;
+            animation: txt-appear .4s forwards ease;
+            animation-delay: 4.3s;
+            transform: scale(.9);
+        }
+        
+ 
+ /*---------------------------------------------------------  SOCIAL CONTAINER  */
+       
+        
+        .socials-cont
+        {
+            background: #525252;
+            background: rgba(0,0,0,.7);
+        }
+        
+        .socials-span
+        {
+            font-size: small;
+            font-weight: bolder;
+            text-align: center;
+        }
+        
+        .socials
+        {
+            display: flex;
+            justify-content: space-between;
+            width: 50%;
+            color: #fafafa;
+        }
+        
+        .social-link
+        {
+            color: #fafafa;
+            transition: .5s;
+        }
+
+        .social-fab
+        {
+            transform: scale(0);
+            animation:  sozials-appear .5s forwards ease;
+            animation-delay: 5.8s;
+/*          animation-delay: 5.5s;    */
+        }
+        
+
+/*      Socials Animation     */        
+        @keyframes sozials-appear
+        {
+            55%
+            {
+                transform: scale(1.7);
+            }
+            100%
+            {
+                transform: scale(1.25);
+            }
+        }
+        
+        .social-icon
+        {
+            transition: .5s;
+        }
+        .social-icon:hover
+        {
+            color: darkorange;
+            
+        }
+        
+/*      Hover-Effect All Social Icons   */
+        .social-icon:hover .fa-facebook-f
+        {
+            color: #3b5998;
+            transform: scale(1.35);
+        }
+        .social-icon:hover .fa-instagram
+        {
+            color: #833AB4;
+            transform: scale(1.35);
+        }
+        .social-icon:hover .fa-twitter
+        {
+            color:  #1DA1F2;
+            transform: scale(1.35);
+        }
+        .social-icon:hover .fa-youtube
+        {
+            color: #c4302b;
+            transform: scale(1.55);
+        }
+        .social-icon:hover .fa-pinterest-p
+        {
+            color: #c8232c;
+            transform: scale(1.35);
+        }
+        
+        
+  /*---------------------------------------------------------  FOOTER CONTACTS CONTAINER  */
+       
+        
+        .footer-contact-cont
+        {
+            position: relative;
+            margin-left: 50px;
+            font-size: small;
+            color: #fafafa;
+            font-weight: 500;
+            transition: .3;
+        }
+        
+        .footer-contact
+        {
+            margin: 0;
+            padding: 0;
+        }
+        
+        .footer-headline
+        {
+            font-size: 17px;
+            font-size: 15px;
+        }
+        
+        .contact-fas
+        {
+            margin-right: 7px;
+            font-size: 1em;
+            color: darkorange;
+        }
+        
+        .contact-fas-download
+        {
+            transform: translate(15px, -4px) scale(1.7);
+            transition: .5s;
+            color: darkorange;
+        }
+        .contact-fas-download:hover
+        {
+            transform: translate(15px, -8px) scale(2.1);
+            color: crimson;
+        
+            cursor: pointer;
+        }
+        
+        .fa-location-arrow
+        {
+            transform: rotate(95deg);
+        }
+
+        
+  /*---------------------------------------------------------  FOOTER BUTTON CONTAINER  */
+
+        .footer-contacts-hide
+        {
+            display: none !important;
+        }
+        
+        .footer-btn-cont
+        {
+            margin-left: 50px;
+            display: flex;
+            font-size: .8em;
+        }
+        
+        .footer-btn
+        {
+            margin-right: 50px;
+            background: transparent;
+            border: solid 2px rgba(2555,255,255,.8);
+            padding: 5px 10px;
+            color: #fafafa;
+            transition: .5s;
+            cursor: pointer;
+        }
+        .footer-btn:hover
+        {
+            box-shadow: 1px 2px 15px rgba(2555,255,255,.6);
+            color: #fafafa;
+        }
+        
+
+        
+        
+        
+  /*---------------------------------------------------------  NAVIGATION ARROWS  */
+
+        
+        .nav-arrow-cont
+        {
+            position: absolute;
+            top: 90%;
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            padding: 0 51px;
+        }
+        
+        .nav-arrow
+        {
+            width: 60px;
+            height: 60px;
+            color: #000;
+            background: rgba(255,255,255,1);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 2px;
+/*            font-size: 1.6em;*/
+            font-size: 25.5px;
+            opacity: .5;
+            transition: .2s;
+            cursor: pointer;
+        }
+        .nav-arrow:hover
+        {
+            opacity: .8;
+        }
+        
+        .nav-arrow-disabled:hover
+        {
+            opacity: .5;
+            cursor: default;
+        }
+
+
+        
+        
+  /*---------------------------------------------------------  FOOTER / SOCIALS-CONT ANIMATI0N-CONTS -   */
+
+/*      Basic Background-Cont  */
+        .ani-basic-bg:after,
+        .ani-side-bg:before
+        {
+            content: '';
+            position: absolute;
+            top: 0;
+            right: 0;
+            width: 100%;
+            height: 100%;
+            background: #91EAE4;
+            background: #b414dc;
+            background: #14dcb4;
+            z-index: 99;
+        }
+        
+        .ani-basic-bg:after
+        {
+            animation: ani-slide-bg-footer 1s forwards;
+            animation-delay: .5s;
+        }
+        
+        
+/*      Animation for Footer Basic Slide*/
+        @keyframes ani-slide-bg-footer
+        {
+            to
+            {
+                width: 0%;
+            }
+        }
+        
+        .ani-side-bg:before
+        {
+            content: '';
+            position: absolute;
+            top: 0;
+            right: 0;
+            width: 100%;
+            height: 100%;
+            background: #14dcb4;
+            
+            animation: ani-slide-bg-footer .6s forwards;
+            animation-delay: 1.6s;
+        }
+        
+        .socials-cont
+        {
+            animation-delay: 2s;
+        }
+        
+/*      Main Color for Footer*/
+        .footer-cont:before,
+        .socials-cont:after
+        {
+            content: '';
+            position: absolute;
+            top: 0;
+            width: 100%;
+            height: 100%;
+        }
+        
+        .footer-cont:before
+        {
+            bottom: 0;
+            background: crimson;
+            
+            animation: ani-footer-slide-up .6s forwards;
+            animation-delay: 1.6s;
+        }
+        
+        
+        
+/*      Animation Social Cont    */
+        .socials-cont:after
+        {
+            right: 0;
+/*
+            background: #434343;
+            background: #525252;
+*/
+            background: #fafafa;
+            background: crimson;
+            background: ;
+            
+            animation: ani-slide-bg-footer .6s forwards;
+            animation-delay: 4.3s;
+        }
+        
+        
+        .ani-side-bg-2
+        {
+            position: absolute;
+            top: 0;
+            right: 0;
+            width: 100%;
+            height: 100%;
+            background: #525252;
+            z-index: 2;
+            
+            animation: ani-slide-bg-footer .6s forwards;
+            animation-delay: 3.58s;
+        }
+        
+  /*---------------------------------------------------------  ANIMATIONS -   */
+
+        
+        
+/*      Animation - Slide up for Footer   */
+        @keyframes ani-footer-slide-up
+        {
+            to
+            {
+                height: 0;
+            }
+        }
+
+        
+/*      Animation - Object becomes visible  and Class      */
+        .ani-hide
+        {
+            opacity: 0;
+            animation: ani-appear .3s forwards ease;
+            animation-delay: 2.7s;
+        }
+        
+        @keyframes ani-appear
+        {
+            to
+            {
+                opacity: 1;
+            }
+        }
+                
+        
+/*      Animation for BTNS  and Class      */
+        .ani-slide-in-btns
+        {
+            transform: translateX(-80px);
+            opacity: 0;
+            animation: ani-slide-in-b .5s forwards ease;
+            animation-delay: 4.3s;
+        }
+        @keyframes ani-slide-in-b
+        {
+            to
+            {
+                transform: translateX(0);
+                opacity: 1;
+            }
+        }
+        
+          
+/*      Animation for Icon Scale and Class    */
+        .ani-navs-icons-scale
+        {
+            transform: translate(-50%, -50%) scale(0);
+            animation:  nav-icon-scale .5s forwards ease;
+            animation-delay: 4.5s;
+/*            animation-delay: 5.5s;*/ 
+        }
+        
+        @keyframes nav-icon-scale
+        {
+            to
+            {
+                transform: translate(-50%, -50%) scale(1);
+                
+            }
+        }
+
+/*      Animation for Txt Background (left to right)     */
+        @keyframes ani-txt-bg
+        {
+            to
+            {
+                width: 100%;
+            }
+        }
+
+
+/*      Animation for Sidebar Navs - Slide in ->          */
+        .sidebar-navs-span
+        {
+            color: #fafafa;
+            transform: translateX(-80px);
+            opacity: 0;
+            animation: ani-navs-slidein .2s forwards ease-out;
+            animation-delay: 4.5s;
+/*            animation-delay: 5.5s;*/
+        }
+        @keyframes ani-navs-slidein
+        {
+            to
+            {
+                transform: translateX(0);
+                opacity: 1;
+            }
+        }
+        
+        
+/*      Animation for Slide Button      */
+        .slide-btn {
+            position: relative;
+            padding: 20px 100px 20px 30px;
+            border: none;
+            background: darkorange;
+            position: absolute;
+            animation: ani-btn-apper-scale .5s forwards;
+            animation-delay:  5.2s;
+            font-weight: bolder;
+            font-size: 20px;
+            transition: .3s;
+            border-radius: 2px;
+            transform: translateX(-101%);
+            cursor: pointer;
+            transform: scale(.9);
+            opacity: 0;
+        }
+        @keyframes ani-btn-apper-scale
+        {
+            to
+            {
+                transform: scale(1);
+                opacity: 1;
+            }
+        }
+        
+        
+/*      Animation for Side Menu - Slide 'open'      */
+        .side-menu {
+            height: 90vh;
+            
+            animation: ani-slide-bg-footer 1s forwards;
+            animation-delay: 2.5s;
+        }
+        
+        
+        .content-txt-cont:before
+        {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 0%;
+            height: 100%;
+            background: #525252;
+            
+            animation: ani-txt-bg .6s forwards;
+            animation-delay: 3.55s;
+        }
+        
+        
+/*      Animation for Socials - appear (scale)     */
+        .social-fab
+        {
+            transform: scale(0);
+            animation:  sozials-appear .5s forwards ease;
+            animation-delay:  5.8s;
+/*            animation-delay: 5.5s;*/
+        }
+        
+        
+        
+/*
+        resp-none
+        {
+            display: none;
+        }
+*/
+        
+        
+
+  /*---------------------------------------------------------  MEDIA QUERIES  */
+
+        
+/*      Makes Arrow-Container Disappear over 576px */
+        @media only screen and (min-width: 576px) {
+            .nav-arrow-cont-mobile
+            {
+                display: none;
+            }
+        }
+        
+/*      Makes Elements Disappear under 992px      */
+        @media only screen and (max-width: 992px) {
+            .footer-btn-cont-md-toggle
+            {
+                display: none !important;
+            }
+        }
+        
+        
+
+/*      Tablets   */
+        @media only screen and (max-width: 768px) {
+            
+        /*---------------------------------------------------------  BURGER  */
+            .burger
+            {
+                position: absolute;
+                top: 5%;
+                right: 10%;
+                width: 40px;
+                height: 25px;
+                cursor: pointer;
+                z-index: 999999999;
+            }
+            
+        /*  Burger-Lines       */
+            .burger span
+            {
+                position: absolute;
+                width: 100%;
+                height: 2.3px;
+                height: 15%;
+                background: #fafafa;
+                border-radius: 2px;
+                transition: .5s;
+            }
+            
+            .burger-one
+            {
+                top: 0;
+            }
+            .burger-two
+            {
+                top: 50%;
+            }
+            .burger-three
+            {
+                top: 100%; 
+            }
+            
+            .burger-one.top
+            {
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%) rotate(45deg);
+            }  
+            .burger-two.middle
+            {
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%) rotate(-45deg);
+            }
+            .burger-three.bottom
+            {
+                top: 150%;
+            }
+   
+            
+/*---------------------------------------------------------  MOBILE SIDEBAR  */
+
+            
+            .mobile-sidebar
+            {
+                position: absolute;
+/*                width: 100%;*/
+                width: 100vh;
+                height: 100%;
+                padding: 0;
+                z-index: 99999;
+            }
+            .ani-navs-icons-scale,
+            .sidebar-navs-span
+            {
+                animation-delay: .25s;
+            }
+            
+            .headline-home
+            {
+                font-size: 3.15em;
+                text-align: center;
+                margin-top: 0;
+                margin-bottom: 11%;
+                letter-spacing: normal;
+            }
+            
+/*          Txt            */
+            .content-txt-cont
+            {
+                width: 85%;
+            }
+            
+            .content-area-cont 
+            {
+                flex-direction: column;
+                padding: 0;
+                width: 100vw;
+            }
+            
+            
+/*            Social fab       */
+            .social-fab-md
+            {
+                font-size: 11px;
+                margin: .35em;
+            }
+            
+            
+/*            Makes Btn-Cont Disappear    */
+            .footer-btn-cont-md-toggle
+            {
+                display: none !important;
+            }
+            
+            .ani-slide-in-btns
+            {
+                margin-right: 10px;
+            }
+            
+            .fa-calendar-alt
+            {
+/*                display: none;*/
+            }
+            
+            .footer-icon-cont
+            {
+                font-size: .9em;
+            }
+        }
+        
+        
+        
+        
+        
+/*      MOBILE PHONE                              */
+        @media only screen and (max-width: 576px) {
+            
+            .burger
+            {
+                top: 4%;
+                right: 5%;
+                
+            }
+            .burger span
+            {
+                height: 2.3px;
+            }
+            
+            header
+            {
+                z-index: 999;
+                width: 100%;
+                padding: 0%;
+            }
+            
+            .logo
+            {
+                width: 30px;
+                height: 30px;
+/*                height: 55px;*/
+/*                width: 55px;*/
+                border-radius: 2px;
+                margin-top: 0%;
+                margin-left: 5%;
+                margin-right: 5%;
+/*                margin-right: 10%;*/
+/*                margin-right: 20%;*/
+            }
+            
+            .headline-home
+            {
+                font-size: 2em;
+                text-align: center;
+                margin-top: 20%;
+                margin-bottom: 10%;
+                letter-spacing: normal;
+                padding: 0 5%;
+                color: #fafafa;
+            }
+            
+            .socials-mobile
+            {
+                margin-top: 10%;
+                margin-bottom: -5%;
+            }
+            
+            .socials-fab
+            {
+                font-size: 1.6em;
+            }
+            
+            .mobile-toggle-btn-x
+            {
+                position: absolute;
+                top: 5%;
+                left: 50%;
+                transform: translateX(-50%);
+                width: 50px;
+                height: 50px;
+                font-size: 2em;
+            }
+            
+            
+            .footer-contact-cont-mobile
+            {
+                margin: 0;
+                margin-bottom: 10%;
+            }
+            
+            .footer-download-mobile
+            {
+                margin-top: 1%;
+                padding-bottom: 3px;
+                border-bottom: solid 1.5px #fafafa; 
+            }
+            
+            .mobile-footer-btn-cont
+            {
+                margin: 8% 0;
+/*                margin-bottom: 5%;*/
+            }
+
+                  
+            .content-txt-cont
+            {
+                width: 100%;
+            }
+            
+            .btn-cont 
+            {
+                width: 95%;
+                height: 80px;
+            }
+            
+            .slide-btn
+            {
+                margin: 0 0%;
+                padding-right: 12%;
+                width: 100%;
+            }
+            
+            .nav-arrow-cont
+            {
+                bottom: 0%;
+/*                padding: 0 51px;*/
+                justify-content: space-between;
+                align-items: center;
+            }
+            
+            .arrow
+            {
+                display: none;
+            }
+
+            .nav-arrow
+            {
+                width: 50px;
+                height: 50px;
+                font-size: 1.5em;
+            }
+            
+            
+            .mobile-footer-contacts
+            {
+                position: absolute;
+                top: 0;
+                left: 0;
+                padding-top: 20%;
+                background: #525252;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+                height: 100%;
+                width: 100%;
+                z-index: 9999;
+            }
+            
+            .footer-contact-cont-resp
+            {
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                display: flex;
+                align-items: center;
+                z-index: 99999;
+            }
+            
+            .contact-cont-resp
+            {
+                display: flex;
+                border-radius: 3px;
+                box-shadow: 0px 0px 1px .6px rgba(0,0,0,.2);
+                padding: 3.5%;
+                cursor: pointer;
+            }
+    }
