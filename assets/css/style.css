@@ -118,7 +118,6 @@
         
 /*      Animation for Slide Button      */
         .slide-btn {
-            position: relative;
             padding: 20px 100px 20px 30px;
             border: none;
             background: darkorange;
@@ -194,7 +193,7 @@
             font-size: 30px;
             font-weight: bold;
 
-            background: url(v356-tang-13-exerciseset_1_1.jpg);
+            background: url('assets/images/v356-tang-13-exerciseset_1_1.jpg');
             background-size: cover;
         }
 
