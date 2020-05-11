@@ -3,10 +3,10 @@
         const memberBtns = document.querySelectorAll('.member-card-btn');
         const memberCups = document.querySelectorAll('.member-card-logo');
         const revealBtn = document.querySelector('.member-reveal-btn');
-        const memberSliders = document.querySelectorAll('.member-cards-wide-slidein');
+        const memberSliders = document.querySelectorAll('.wide-slidein');
         const mobileWideConts = document.querySelectorAll('.mobile-wide-cont');
         
-        
+        console.log('lsdjlfjslhlkdjfhg;lkwjdhfgklhkjhakfa.');
         
        // Functions        
        function hideMemberBtnsCups() {  // Hides Cups and Buttons Behind Card
@@ -14,7 +14,8 @@
            
            if (screen.width <= 576) {
                mobileWideAppear(index);
-           } else {
+           } 
+           else {
                memberContSlide(index);
            }
            
@@ -42,11 +43,12 @@
         
         function memberContSlide(i) {  // Slides in Chosen Wide Container
             let chosenSlider = memberSliders[i];
+            console.log(chosenSlider, i, 'lfshdlfhsldflsdf');
             chosenSlider.classList.remove('member-cards-wide-slidein');
         }
         
         
-        function revealMemberBtnsCups() {  // 
+        function revealMemberBtnsCups() {  // Hides all Mobile Wides; Buttons/Cups back to default;    
             mobileWideConts.forEach(w => w.classList.add('disp-none'));
             revealBtn.classList.remove('mobile-member-reveal-btn');
             memberBtns.forEach(btn => { btn.classList.remove('member-card-btn-hide'); btn.innerHTML = "See More &#8594" });
@@ -67,4 +69,4 @@
         // Buttons
         memberBtns.forEach(btn => btn.addEventListener('click', hideMemberBtnsCups));
         revealBtn.addEventListener('click', revealMemberBtnsCups);
-    
+        

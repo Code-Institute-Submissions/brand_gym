@@ -23,11 +23,6 @@
             transform: translate(-50%, -0%) !important;
         }
         
-        .sidebar 
-        {
-            background: pink;
-        }
-        
         a:hover
         {
             color: #000;
@@ -109,7 +104,7 @@
             justify-content: center;
             flex-direction: column;
             align-items: center;
-            background: url(barbells-on-gray-surface-669584.jpg) center;
+            background: url('../images/barbells-on-gray-surface-669584.jpg') center;
             background-size: cover;
         }
         .main-cont:before
@@ -322,17 +317,17 @@
 
 
         .logo-regular {
-            background: url(toppng.com-bronze-cup-third-three-720x720.png) center;
+            background: url('../images/toppng.com-bronze-cup-third-three-720x720.png') center;
             background-size: cover;
         }
 
         .logo-premium {
-            background: url(toppng.com-silver-cup-second-two-720x720.png);
+            background: url('../images/toppng.com-silver-cup-second-two-720x720.png');
             background-size: cover;
         }
 
         .logo-vip {
-            background: url(toppng.com-gold-cup-first-one-720x720.png) center;
+            background: url('../images/toppng.com-gold-cup-first-one-720x720.png') center;
             background-size: cover;
             height: 200px;
         }
