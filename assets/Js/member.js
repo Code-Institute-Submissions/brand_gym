@@ -17,9 +17,7 @@
            } 
            else {
                memberContSlide(index);
-           }
-           
-            
+           }            
            
             memberBtns.forEach(btn => {
                 this !== btn ? btn.classList.add('member-card-btn-hide') : btn.classList.remove('member-card-btn-hide');

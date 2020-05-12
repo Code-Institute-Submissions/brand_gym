@@ -1008,7 +1008,7 @@
         @media only screen and (min-width: 576px) {
             .nav-arrow-cont-mobile
             {
-                display: none;
+                display: none !important;
             }
         }
         
