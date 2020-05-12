@@ -384,7 +384,6 @@
         {
             background:  rgba(255,255,255,.1);
             border-radius: 5px;
-            color: ;
         }
         
         .footer-contact-reveal-btn .fas
@@ -1029,8 +1028,8 @@
         /*---------------------------------------------------------  BURGER  */
             .burger
             {
-                position: absolute;
-                top: 5%;
+                position: fixed;
+                top: 3%;
                 right: 10%;
                 width: 40px;
                 height: 25px;
@@ -1086,9 +1085,11 @@
             
             .mobile-sidebar
             {
-                position: absolute;
+                position: fixed;
+                top: 0;
+                left: 0;
 /*                width: 100%;*/
-                width: 100vh;
+                width: 100vw;
                 height: 100%;
                 padding: 0;
                 z-index: 99999;
@@ -1224,6 +1225,15 @@
                 font-size: 2em;
             }
             
+            .nav-arrow-cont.nav-arrow-cont-mobile
+            {
+                position: fixed;
+                bottom: 0%;
+                height: 10vh;
+                width: 100vw;
+                margin: 0;
+                background: #525252;
+            }
             
             .footer-contact-cont-mobile
             {

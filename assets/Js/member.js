@@ -14,6 +14,7 @@
            
            if (screen.width <= 576) {
                mobileWideAppear(index);
+               revealBtn.style.zIndex = '9999999999';
            } 
            else {
                memberContSlide(index);
@@ -46,7 +47,8 @@
         }
         
         
-        function revealMemberBtnsCups() {  // Hides all Mobile Wides; Buttons/Cups back to default;    
+        function revealMemberBtnsCups() {  // Hides all Mobile Wides; Buttons/Cups back to default; 
+            revealBtn.style.zIndex = '99';  
             mobileWideConts.forEach(w => w.classList.add('disp-none'));
             revealBtn.classList.remove('mobile-member-reveal-btn');
             memberBtns.forEach(btn => { btn.classList.remove('member-card-btn-hide'); btn.innerHTML = "See More &#8594" });

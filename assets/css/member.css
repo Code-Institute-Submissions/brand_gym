@@ -99,7 +99,7 @@
 
         .main-cont
         {
-            max-height: 90vh;
+            height: 90vh;
             display: flex;
             position: relative;
             justify-content: center;
@@ -146,6 +146,7 @@
             position: relative;
             text-align: center;
             font-size: 4.2em;
+            margin-top: 15%;
             margin-bottom: 80px;
             letter-spacing: 3px;
             font-weight: bold;
