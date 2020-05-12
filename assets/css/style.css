@@ -136,7 +136,6 @@
         }
         .slide-btn:hover .forward-btn-link
         {
-            
             transform: scale(1);
             text-decoration: none;
             color: rgba(0,0,0,.8);
@@ -868,6 +867,8 @@
         {
             transform: translateX(-80px);
             opacity: 0;
+            border-radius: 2px;
+
             animation: ani-slide-in-b .5s forwards ease;
             animation-delay: 4.3s;
         }

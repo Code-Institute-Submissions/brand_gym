@@ -29,7 +29,6 @@
         .bttn
         {
             outline: none;
-            border: none;
             cursor: pointer;
         }
         
@@ -96,7 +95,7 @@
         .headline 
         {
             position: relative;
-            font-size: 5.2em;
+            font-size: 4.2em;
             margin-bottom: 80px;
             letter-spacing: 3px;
             font-weight: bold;
