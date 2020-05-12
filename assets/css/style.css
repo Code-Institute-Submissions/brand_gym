@@ -86,7 +86,7 @@
             position: relative;
             height: 90vh;
             width: 100vw;
-            background: url(200350.jpg);
+            background: url('../images/200350.jpg');
             background-size: cover;
             display: flex;
             justify-content: center;
@@ -193,7 +193,7 @@
             font-size: 30px;
             font-weight: bold;
 
-            background: url('v356-tang-13-exerciseset_1_1.jpg');
+            background: url('../images/v356-tang-13-exerciseset_1_1.jpg');
             background-size: cover;
         }
 

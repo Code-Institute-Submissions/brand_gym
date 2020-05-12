@@ -39,7 +39,7 @@
             justify-content: center;
             align-items: center;
             overflow: hidden;
-            background: url('assets/images/photo-of-topless-man-exercising-on-yoga-mat-2294362.jpg');
+            background: url('../images/photo-of-topless-man-exercising-on-yoga-mat-2294362.jpg');
             background-size: cover;
         }
         .main-cont:before
@@ -187,37 +187,37 @@
         
         .locations-sauna-bg 
         {
-            background: url("adult-beautiful-beauty-erotic-269110%20(1).jpg") no-repeat center;
+            background: url("../images/adult-beautiful-beauty-erotic-269110%20(1).jpg") no-repeat center;
             background-size: cover;
         }
         
         .locations-massage-bg
         {
-            background: url(woman-having-facial-3997995.jpg) center;
+            background: url('../images/woman-having-facial-3997995.jpg') center;
             background-size: cover;
         }
         
         .locations-pool-bg
         {
-            background: url(underwater-photography-of-swimmer-711187.jpg) center;
+            background: url('../images/underwater-photography-of-swimmer-711187.jpg') center;
             background-size: cover;
         }
         
         .locations-bar-bg
         {
-            background: url(variety-of-healthy-drinks-on-display-3875431.jpg) center right;
+            background: url('../images/variety-of-healthy-drinks-on-display-3875431.jpg') center right;
             background-size: cover;
         }
         
         .locations-gym-bg
         {
-            background: url(man-and-woman-holding-battle-ropes-1552242.jpg) center;
+            background: url('../images/man-and-woman-holding-battle-ropes-1552242.jpg') center;
             background-size: cover;
         }
         
         .locations-virtual-bg
         {
-            background: url(man-wearing-white-virtual-reality-goggles-834949.jpg);
+            background: url('../images/man-wearing-white-virtual-reality-goggles-834949.jpg');
             background-size: cover;
         }
 

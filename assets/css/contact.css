@@ -28,7 +28,7 @@
 /*-------------------------------------------- BUTTONS   */
 
         
-         .bttn {
+         .contact-submit-bttn {
             position: relative;
             background: darkorange;
             border: none;
@@ -43,7 +43,7 @@
             outline: none;
         }
 
-        .bttn:hover .arrow {
+        .contact-submit-bttn:hover .arrow {
             transform: translateY(-50%) translateX(4px);
         }
 
@@ -69,7 +69,7 @@
             align-items: center;
             flex-wrap: wrap;
             width: 100vw;
-            background: url(selective-focus-of-a-boxer-s-fist-3562117.jpg) no-repeat;
+            background: url('../images/selective-focus-of-a-boxer-s-fist-3562117.jpg') no-repeat;
             background-size: cover;
             height: 90vh;
         }

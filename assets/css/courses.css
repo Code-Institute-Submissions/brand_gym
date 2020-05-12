@@ -35,7 +35,7 @@
             justify-content: center;
             align-items: center;
             overflow: hidden;
-            background: url(fabien-bazanegue-8kEEEe0eY2w-unsplash.jpg) center;
+            background: url('../images/fabien-bazanegue-8kEEEe0eY2w-unsplash.jpg') center;
             background-size: cover;
         }
         .main-cont:before
@@ -174,39 +174,39 @@
         
         .locations-strength-bg 
         {
-            background: url("woman-lifting-two-dumbells-on-both-hands-in-front-of-mirror-1886487.jpg");
+            background: url("../images/woman-lifting-two-dumbells-on-both-hands-in-front-of-mirror-1886487.jpg");
             background-size: cover;
         }
 
         .locations-cardio-bg 
         {
-            background: url("victor-freitas-E2FLRJtZx2E-unsplash.jpg") center;
+            background: url("../images/victor-freitas-E2FLRJtZx2E-unsplash.jpg") center;
             background-size: cover;
         }
         
         .locations-fitness-bg
         {
-            background: url(sven-mieke-optBC2FxCfc-unsplash.jpg) 28%;
+            background: url('../images/sven-mieke-optBC2FxCfc-unsplash.jpg') 28%;
             background-size: cover;
         }
         
         .locations-stretch-bg
         {
-            background: url(geert-pieters-3RnkZpDqsEI-unsplash.jpg) center;
+            background: url('../images/geert-pieters-3RnkZpDqsEI-unsplash.jpg') center;
             background-size: cover;
             filter: grayscale(.2);
         }
         
         .locations-water-bg
         {
-            background: url(person-swimming-on-body-of-water-863988.jpg) center;
+            background: url('../images/person-swimming-on-body-of-water-863988.jpg') center;
             filter: grayscale(.5);
             background-size: cover;
         }
         
         .locations-activities-bg
         {
-            background: url(perry-grone-lbLgFFlADrY-unsplash.jpg) center;
+            background: url('../images/perry-grone-lbLgFFlADrY-unsplash.jpg') center;
             background-size: cover;
             filter: grayscale(.3);
         }
