@@ -110,7 +110,25 @@
         footerToggleMobileBtn.addEventListener('click', footerMobile);
         
         
+
+// ----------------------------------------------------------------------
+
+        // For Login
+        const loginBackBtn = document.querySelector('.loginBackBtn');
         
+        
+        function goBack() {  // Go Back one Page
+            window.history.back();
+        }
+
+
+        loginBackBtn.addEventListener('click', goBack);
+
+
+
+
+
+
         
         
         //!!! Ask Sensei

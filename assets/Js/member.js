@@ -1,5 +1,6 @@
         
         // Variables
+        const header = document.querySelector('header');
         const memberBtns = document.querySelectorAll('.member-card-btn');
         const memberCups = document.querySelectorAll('.member-card-logo');
         const revealBtn = document.querySelector('.member-reveal-btn');
@@ -15,6 +16,7 @@
            if (screen.width <= 576) {
                mobileWideAppear(index);
                revealBtn.style.zIndex = '9999999999';
+               header.style.opacity = '0';
            } 
            else {
                memberContSlide(index);
@@ -48,7 +50,8 @@
         
         
         function revealMemberBtnsCups() {  // Hides all Mobile Wides; Buttons/Cups back to default; 
-            revealBtn.style.zIndex = '99';  
+            revealBtn.style.zIndex = '-1';
+            header.style.opacity = '1';  
             mobileWideConts.forEach(w => w.classList.add('disp-none'));
             revealBtn.classList.remove('mobile-member-reveal-btn');
             memberBtns.forEach(btn => { btn.classList.remove('member-card-btn-hide'); btn.innerHTML = "See More &#8594" });

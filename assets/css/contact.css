@@ -318,7 +318,7 @@
 /*-------------------------------------------- NAVIGATION ARROW CONTAINER   */
         
         
-        .nav-arrow-cont
+        /* .nav-arrow-cont
         {
             position: absolute;
             top: 90%;
@@ -354,11 +354,11 @@
         }
         
 /*      Disabled Arrow - if not possible to use      */
-        .nav-arrow-disabled:hover
-        {
-            opacity: .5;
-            cursor: default;
-        }
+        /* .nav-arrow-disabled:hover */
+        /* { */
+            /* opacity: .5;
+            cursor: default; */
+        /* } */
         
         
         
@@ -437,6 +437,3 @@
                 display: none;
             }
         }
-        
-    
-             

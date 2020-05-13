@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" type="text/css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.1/css/hover-min.css" type="text/css" />
+    <script src="https://kit.fontawesome.com/7443d15568.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <link rel="stylesheet" href="/assets/css/login.css">
+    <title>Brand Gym</title>
+</head>
+<body>
+    
+    <div class="row no-gutters">
+        <div class="col-12 col-lg-10 main-cont">
+
+<!--HEADLINE                                 -->
+            <h1 class="headline uppercase">Welcome / Join Us!</h1>
+<!--WRAPPER                                  -->
+            <div>
+<!--SIGN IN - FORM                           -->
+                <form class="contact-cont contact-cont-login" action="submit">
+                    <h2 class="contact-headline">Welcome Back!</h2>
+<!--                Inputs - Email; Password                    -->
+                    <div class="form-group">
+                        <input type="email" class="contact-input-name contact-input form-control" id="exampleFormControlInput1" placeholder="Email">
+                    </div>
+
+                    <div class="form-group">
+                        <input type="password" class="contact-input-name contact-input form-control" id="exampleFormControlInput1" placeholder="Password">
+                    </div>
+
+<!--                Login - Checkbox Container; Forgot Password          -->
+                    <ul class="login-check-main">
+                        <li>
+                            <label>
+                                <span class="login-check-span">Remember<span class="invisible">I</span> &#8594</span>
+                                <input type="checkbox">
+                                <div class="login-check-icon-cont">
+                                    <i class="login-check-icon fas fa-id-card-alt"></i>
+                                </div>
+                            </label>
+                        </li>
+                        <li>
+                            <label>
+                                <div>
+                                    <span class="login-check-span login-check-span-password login-check-span2"><span class="resp-none"><i class="login-check-icon fas fa-lock"></i> &#8592</span><span class="invisible">I</span> Forgot Password?</span>
+                                </div>
+                            </label>
+                        </li>
+                    </ul>
+
+<!--                Login - Socials Container                 -->
+                    <div class="login-socials-main resp-none-md">
+                        <span class="resp-none lowercase">Or Sign In With<span class="invisible">I</span> &#8594 </span>
+                        <div class="login-socials-cont"><i class="fab fa-google-plus-square"></i></div>
+                        <div class="login-socials-cont"><i class="fab fa-facebook-square"></i></div>
+                        <div class="login-socials-cont"><i class="fab fa-twitter-square"></i></div>
+                        <div class="login-socials-cont"><i class="fab fa-linkedin"></i></div>
+                    </div>
+
+<!--                Sign in Button                           -->
+                    <button class="bttn" type="submit"><span class="bolder">Sign In - </span> So Nice To Have You Back<a class="arrow" href="#"><img class="arrow" src="https://cdn.clipart.email/6228f614b8ff8cbb2983f4fce0a8f139_thin-arrow-transparent-png-clipart-free-download-ywd_512-512.png" width="350" alt="Thin Arrow Png Black" /></a></button>
+                </form>
+
+
+<!--SIGN UP - FORM                                      -->
+                <form class="contact-cont" action="submit">
+<!--                Sign up - Headline                  -->
+                    <h2 class="contact-headline">Not A Member Yet?</h2>
+<!--                Input - Name                             -->
+                    <div class="form-group">
+                        <input type="email" class="contact-input-name contact-input form-control" id="exampleFormControlInput1" placeholder="Full Name*">
+                    </div>
+
+<!--                Input - Email; Password                  -->               
+                    <div class="row">
+                        <div class="col-12 col-md">
+                            <input type="text" class="contact-input-txt contact-input form-control" placeholder="Email Adress*">
+                        </div>
+                        <div class="col">
+                            <input type="password" class="contact-input-txt contact-input form-control" placeholder="Password*">
+                        </div>
+                    </div>
+
+<!--                Input - Date; Phone                      -->               
+                    <div class="row">
+                        <div class="col-12 col-md">
+                            <input type="date" min="1920-01-01" value="2020-01-01" class="contact-input-txt contact-input form-control">
+                        </div>
+                        <div class="col">
+                            <input type="number" class="contact-input-txt contact-input form-control" placeholder="Phone Number">
+                        </div>
+                    </div>
+
+
+<!--                Checkbox and Terms                       -->
+                    <ul class="login-check-main login-check-padding-r">
+                        <li>
+                            <label>
+                                <span class="login-check-span">I Accept* <span class="invisible">I</span> &#8594</span>
+                                <div class="login-check-icon-cont">
+                                    <i class="login-check-icon fas fa-clipboard-check"></i>
+                                </div>
+                            </label>
+                        </li>
+                        <li>
+<!--                        Radios                           -->
+                            <span class="resp-none login-member-radio-span">
+                                <label>
+                                    <input type="radio" name="member-bronze">
+                                    <i class="member-icons member-bronze fas fa-trophy"></i>
+                                </label>
+                                <label>
+                                    <input type="radio" name="member-silver">
+                                    <i class="member-icons member-silver fas fa-trophy"></i>
+                                </label>
+                                <label>
+                                    <input type="radio" name="member-gold">
+                                    <i class="member-icons member-gold fas fa-trophy"></i>
+                                </label>
+                            </span>
+                        </li>
+                        <li>
+                            <label>
+                                <div>
+                                    <span class="login-check-span login-check-span2"><i class="login-check-icon fas fa-book"></i><span class="invisible">I</span> &#8592 <span class="invisible"></span> <span class="lowercase">Terms <span class="resp-none">and Policy</span></span></span>
+                                </div>
+                            </label>
+                        </li>
+                    </ul>
+<!--                Sign Up - Button                           -->
+                    <button class="bttn" type="submit"><span class="bolder">Sign Up - </span> And Enjoy Our Services<a class="arrow" href=""><img class="arrow" src="https://cdn.clipart.email/6228f614b8ff8cbb2983f4fce0a8f139_thin-arrow-transparent-png-clipart-free-download-ywd_512-512.png" width="350" alt="Thin Arrow Png Black" /></a></button>
+                </form>
+            </div>
+<!--        Return Button                                      -->
+            <button class="login-back-btn">Go Back &#8592</button>
+        </div>
+
+        <div class="col-md-2 d-sm-none d-md-block side-bar"></div>
+    </div>
+
+    <script src="assets/Js/main.js"></script>
+
+</body>
+</html>

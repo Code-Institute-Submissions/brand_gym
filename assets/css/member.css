@@ -433,7 +433,7 @@
     
         
         
-        .nav-arrow-cont
+        /* .nav-arrow-cont
         {
             position: absolute;
             top: 90%;
@@ -466,7 +466,7 @@
         .nav-arrow .fas
         {
             font-size: 25.5px;
-        }
+        } */
         
         
         
@@ -485,7 +485,7 @@
             .headline
             {
                 font-size: 3.5em;
-                margin-top: 5%;
+                margin-top: 15%;
             }
             
             .member-card-cont-main
@@ -544,9 +544,9 @@
 
             .member-headline
             {
+                margin-top: 15%;
                 font-size: 2em;
                 text-align: center;
-                margin-top: 5%;
                 margin-bottom: 26%;
                 color: #fafafa;
             }
