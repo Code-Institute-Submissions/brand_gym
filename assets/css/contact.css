@@ -399,6 +399,11 @@
         
 /*      Mobie Phone          */
         @media only screen and (max-width: 576px) {
+
+            .nav-arrow-cont
+            {
+                display: none;
+            }
             
             .main-cont
             {
@@ -419,7 +424,6 @@
             }
             
             .contact-cont
-            
             {
                 padding: 5%;
                 box-shadow: none;
