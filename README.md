@@ -1,4 +1,4 @@
-# Brand Gym
+# :weight_lifting: Brand Gym
 
 This is a simple Gym Website with a very creative Name :upside_down_face:
 The goal is simple - getting more customers/members. The user should get
@@ -9,7 +9,7 @@ Good custumer service is key - there is a contact us section for all kind of que
 (company could benefit from good critisism to improve the user experience on the website and the gym 
 or getting free ideas or even/evtl. relevant data :sunglasses: ). 
 
-### Goals
+### :checkered_flag: Goals
 
 * **Simple** and **intuitive** navigation (Sidebar, arrows)
 * A **logical** structure to minimize everything not needed
@@ -21,19 +21,24 @@ or getting free ideas or even/evtl. relevant data :sunglasses: ).
 * **Avoid** too much **scrolling** for a better and simpler overview
 
 
-### Built with
+### :keyboard: Built With
 
 1. HTML
 2. CSS / Bootstrap
 3. Javascript
 
 
-### Copied Code Snippets
+### :smiling_imp: Copied Code Snippets
 
-* About us page -> Code for the picture Slider (just the slides) from Youtube
-* Inputs (two in one row) -> bootstrap 
+* About us page -> Code for the picture Slider from Youtube
+ (only the part of the function that slides the images)
+* Inputs (those with two inputs in one row) -> bootstrap 
 
 
-#### Author
+### :desktop_computer: GitHub Pages Link
+
+
+
+### :raising_hand_man: Author
 
 Robert M.
