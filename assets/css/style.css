@@ -619,7 +619,7 @@
         
         .footer-headline
         {
-            font-size: 17px;
+            /* font-size: 17px; */
             font-size: 15px;
         }
         
@@ -999,6 +999,9 @@
 
   /*---------------------------------------------------------  MEDIA QUERIES  */
 
+
+        @media only screen and (max-width: )
+
         
 /*      Makes Arrow-Container Disappear over 576px */
         @media only screen and (min-width: 576px) {
@@ -1014,6 +1017,8 @@
             {
                 display: none !important;
             }
+
+            
         }
         
         

@@ -32,6 +32,7 @@ or getting free ideas or even/evtl. relevant data :sunglasses: ).
 
 * About us page -> Code for the picture Slider from Youtube
  (only the part of the function that slides the images)
+  **Link to Video:* 
 * Inputs (those with two inputs in one row) -> bootstrap 
 
 

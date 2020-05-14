@@ -342,6 +342,13 @@
 
 /*      Tablet     */
         @media only screen and (max-width: 768px) {
+
+            .location-headline
+            {
+                margin-top: 15%;
+                color: #fafafa;
+            }
+
             .main-cont
             {
                 height: auto;
