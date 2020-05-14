@@ -404,6 +404,12 @@
             {
                 display: none;
             }
+
+            .nav-arrow-cont.nav-arrow-cont-mobile
+            {
+                /* display: block; */
+                display: flex;
+            }
             
             .main-cont
             {

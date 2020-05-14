@@ -15,12 +15,14 @@
            
            if (screen.width <= 576) {
                mobileWideAppear(index);
-               revealBtn.style.zIndex = '9999999999';
                header.style.opacity = '0';
            } 
            else {
                memberContSlide(index);
-           }            
+           } 
+           
+           revealBtn.style.opacity = '1';
+           revealBtn.style.zIndex = '9999999999';
            
             memberBtns.forEach(btn => {
                 this !== btn ? btn.classList.add('member-card-btn-hide') : btn.classList.remove('member-card-btn-hide');
@@ -50,7 +52,7 @@
         
         
         function revealMemberBtnsCups() {  // Hides all Mobile Wides; Buttons/Cups back to default; 
-            revealBtn.style.zIndex = '-1';
+            revealBtn.style.opacity = '0';
             header.style.opacity = '1';  
             mobileWideConts.forEach(w => w.classList.add('disp-none'));
             revealBtn.classList.remove('mobile-member-reveal-btn');

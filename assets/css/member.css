@@ -484,7 +484,6 @@
             .headline
             {
                 font-size: 3.5em;
-                margin-top: 15%;
             }
             
             .member-card-cont-main
@@ -539,6 +538,12 @@
             .nav-arrow-cont
             {
                 display: none;
+            }
+
+            .nav-arrow-cont.nav-arrow-cont-mobile
+            {
+                /* display: block; */
+                display: flex;
             }
 
             .member-headline
