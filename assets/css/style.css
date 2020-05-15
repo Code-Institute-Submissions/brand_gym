@@ -226,9 +226,12 @@
             overflow: hidden;
         }
         
-        .menu-sidebar {
+        .menu-sidebar 
+        {
+            position: relative;
             display: flex;
             flex-direction: column;
+            z-index: 999
         }
         
         .menu-li-cont {
@@ -1002,7 +1005,7 @@
   /*---------------------------------------------------------  MEDIA QUERIES  */
 
 
-        @media only screen and (max-width: )
+        /* @media only screen and (max-width: ) */
 
         
 /*      Makes Arrow-Container Disappear over 576px */
@@ -1164,10 +1167,10 @@
 /*      MOBILE PHONE                              */
         @media only screen and (max-width: 576px) {
 
-            /* .headline.margintop
+            .mobile-none
             {
-                margin-top: 15%;
-            } */
+                display: none !important;
+            }
             
             .burger
             {
