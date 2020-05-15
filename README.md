@@ -19,6 +19,8 @@ or getting free ideas or even/evtl. relevant data :sunglasses: ).
 * **3-click buy system** (button - choose package - buy)
 * Custumer service / Contact section for **better user experience**
 * **Avoid** too much **scrolling** for a better and simpler overview
+* All **Relevant** information is easy to spot
+* Buttons in the Footer - Option for **Booking** always visible
 
 
 ### :keyboard: Built With
@@ -32,7 +34,7 @@ or getting free ideas or even/evtl. relevant data :sunglasses: ).
 
 * About us page -> Code for the picture Slider from Youtube
  (only the part of the function that slides the images)
-  **Link to Video:* 
+  **Link to Video: https://www.youtube.com/watch?v=4YQ4svkETS0&t=213s* 
 * Inputs (those with two inputs in one row) -> bootstrap 
 
 

@@ -1,17 +1,17 @@
-/* 
 
-        .main-cont-home 
+
+        .main-cont-booking 
         {
             position: relative;
             height: 90vh;
             width: 100vw;
-            background: url(200350.jpg);
+            background: url('../images/200350.jpg');
             background-size: cover;
             display: flex;
             justify-content: center;
             align-items: center;
         }
-        .main-cont-home:before
+        .main-cont-booking:before
         {
             content: '';
             position: absolute;
@@ -20,7 +20,7 @@
             background: #434343;
             animation: ani-bg-filter 5s forwards ease-in-out;
             animation-delay: 2s;
-        } */
+        }
 
  ul
         {
@@ -240,7 +240,7 @@
             top: 0;
             left: 50%;
             transform: translateX(-50%);
-            background: url(woman-in-red-sports-bra-beside-woman-in-white-sports-bra-3768710.jpg);
+            background: url('../images/woman-in-red-sports-bra-beside-woman-in-white-sports-bra-3768710.jpg');
             background-size: cover;
             width: 100%;
             height: 80%;
@@ -262,7 +262,7 @@
                 right: 5%;
             }
             
-            .main-cont-home
+            .main-cont-booking
             {
                 height: auto;
             }
