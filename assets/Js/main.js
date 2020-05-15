@@ -1,6 +1,6 @@
         
         // Variables 
-        const header = document.querySelector('header');
+        const navbar = document.querySelector('header');
         const footerCont = document.querySelectorAll('.footer-cont');
         const footerContacts = document.querySelectorAll('.footer-contact-cont');
         const footerContactsHideBtn = document.querySelector('.footer-contact-hide-btn');
@@ -24,13 +24,13 @@
         let prevScrollPosition = window.pageYOffset;
         
         
-        window.onscroll = () => {  // Makes Header 'dispapper' while scrolling down
+        window.onscroll = function() {  // Makes Header 'dispapper' while scrolling down
             let currentScrollPosition = window.pageYOffset;
-            
+            console.log(currentScrollPosition)
             if (prevScrollPosition > currentScrollPosition) {
-                header.style.top = '0';
+                navbar.style.top = '0';
             } else {
-                header.style.top = '-100%';
+                navbar.style.top = '-100%';
             }
 
             prevScrollPosition = currentScrollPosition;

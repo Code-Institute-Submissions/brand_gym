@@ -1188,6 +1188,7 @@
                 z-index: 999;
                 width: 100%;
                 padding: 0%;
+                transition: .2s;
             }
             
             .logo
