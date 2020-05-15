@@ -1,0 +1,364 @@
+/* 
+
+        .main-cont-home 
+        {
+            position: relative;
+            height: 90vh;
+            width: 100vw;
+            background: url(200350.jpg);
+            background-size: cover;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .main-cont-home:before
+        {
+            content: '';
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            background: #434343;
+            animation: ani-bg-filter 5s forwards ease-in-out;
+            animation-delay: 2s;
+        } */
+
+ ul
+        {
+            list-style: none;
+/*            padding: 0;*/
+        }
+        
+        .col ul
+        {
+            padding: 0;
+        }
+        
+        
+        
+        
+        
+        
+        .booking-headline
+        {
+            position: relative;
+            font-size: 5.2em;
+            margin-bottom: 80px;
+            letter-spacing: 3px;
+            font-weight: bold;
+            margin-top: 10%;
+            text-align: center;
+/*            color: rgba(255, 255, 255, .6);*/
+            color: #fafafa;
+        }
+        
+        
+        
+        
+        .main-cont
+        {
+            height: 90vh;
+/*
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+*/
+        }
+                
+        
+        .booking-three-btn
+        {
+/*            background: lightblue;*/
+/*            border: .2px solid;*/
+            justify-content: center;
+            display: flex;
+            align-items: center;
+            height: 80px;
+            margin-bottom: 20px;
+        }
+        
+        .booking-bottom-headline
+        {
+            text-align: center;
+            font-weight: bolder;
+            font-size: 1.55em;
+            color: #000;
+/*            color: #fafafa;*/
+        }
+        
+        .txt-center
+        {
+            text-align: center;
+        }
+        
+        .booking-txt-cont
+        {
+/*            background: green;*/
+            font-weight: bolder;
+            color: #fafafa;
+            text-align: center;
+            margin-bottom: 8%;
+            
+        }
+        
+        .booking-txt
+        {
+/*            background: pink;*/
+            border: .2px solid;
+        }
+        
+        .booking-bottom-btns
+        {
+            position: absolute;
+            bottom: 5%;
+            left: 50%;
+            transform: translateX(-50%);
+            padding: 5px 15px;
+            margin-bottom: 2%;
+            background: darkorange;
+            font-weight: bold;
+            border: none;
+            border-radius: 2px;
+            color: #000;
+            cursor: pointer;
+        }
+        .booking-middle-btn
+        {
+            margin-bottom: -.5%;
+        }
+        
+        
+        
+        .booking-list,
+        .booking-txt,
+        .booking-img
+        {
+            position: relative;
+            background: #525252;
+            width: 95%;
+            display: flex;
+            justify-content: space-between;
+            flex-direction: column;
+            align-items: center;
+            padding: 3%;
+            border-radius: 2px;
+            box-shadow: .5px .5px 8px rgba(255,255,255,.4);
+        }
+        
+        
+        
+        .booking-img
+        {
+            position: relative;
+            transform: translateY(20%);
+            background: #434343;
+        }
+        
+        
+        .booking-bottom
+        {
+            margin-top: 20px;
+/*            height: 350px;*/
+        }
+        
+        
+        .booking-btn
+        {
+            width: 95%;
+            height: 100%;
+            background: black;
+            font-size: 1.6em;
+            font-weight: bolder;
+            color: rgba(2555,255,255,.9);
+/*            color: #fafafa;*/
+            border-radius: 2px;
+            border: solid 3px #fafafa
+        }
+        
+
+        .booking-list-cont ul
+        {
+            display: flex;
+            justify-content: space-between;
+            flex-direction: column;
+            align-items: center;
+        }
+        
+        .booking-list-cont ul li
+        {
+            margin-bottom: 2.4%;
+            
+        }
+        
+        .booking-list-cont ul li .fas
+        {
+            margin-right: 10px;
+            font-size: 1.3em;
+/*            width: 50px;*/
+/*            text-align: center*/
+        }
+        
+        .booking-list-item
+        {
+            display: flex;
+            align-items: center;
+            font-size: ;
+            color: #fafafa;
+        }
+        .booking-list-item .fas
+        {
+            margin-right: 5px;
+        }
+        
+        
+        
+        .booking-img-bg
+        {
+            width: 90%;
+            background: black;
+        }
+        
+        .booking-img-color
+        {
+            position: absolute;
+            top: -20%;
+            left: 0;
+            background: crimson;
+            width: 100%;
+            height: 20%;
+        }
+        .booking-img-color .fa-mobile-alt
+        {
+            font-size: 2em;
+            color: #fafafa;
+        }
+        
+        
+        .booking-img-bg
+        {
+            position: absolute;
+            top: 0;
+            left: 50%;
+            transform: translateX(-50%);
+            background: url(woman-in-red-sports-bra-beside-woman-in-white-sports-bra-3768710.jpg);
+            background-size: cover;
+            width: 100%;
+            height: 80%;
+        }
+        
+        
+        .booking-icon
+        {
+/*            color: #fafafa;*/
+/*            color: #000;*/
+            color: darkorange;
+            margin-top: 5%;
+        }
+        
+        @media only screen and (max-width: 768px) {
+            .burger 
+            {
+                top: 1.5%;
+                right: 5%;
+            }
+            
+            .main-cont-home
+            {
+                height: auto;
+            }
+            
+            .main-cont
+            {
+                height: auto;
+            }
+            
+            .booking-icon
+            {
+                margin: 5% 0;
+            }
+            
+            .fa-mobile-alt
+            {
+                font-size: 3em;
+            }
+            
+            .booking-bottom
+            {
+                margin-bottom: 8%;
+            }
+            .booking-bottom-list-cont ul
+            {
+                margin-bottom: 10%;
+            }
+            
+            .booking-list
+            {
+                height: 330px;
+                margin-top: 16%
+            }
+            .booking-img
+            {
+                height: 600px;
+            }
+            
+            .booking-img
+            {
+                height: 600px;
+                margin-top: -2%;
+            }
+            
+            .booking-middle-btn
+            {
+                transform: translate(-50%, -50%);
+            }
+        }    
+        
+        
+        
+        
+        @media only screen and (max-width: 576px) {
+            
+            .booking-headline
+            {
+                font-size: 3.5em;
+                margin-top: 15%;
+                margin-bottom: 12%;
+            }
+            
+            .booking-bottom-btns
+            {
+                margin-top: 5%;
+                margin-bottom: 0;
+            }
+            
+            .booking-img
+            {
+                height: 300px;
+            }
+            
+            
+            .booking-list
+            {
+                height: 280px;
+                margin-top: 17%
+            }
+
+            .booking-img
+            {
+                height: 320px;
+                margin-top: -3%;
+            }
+            
+            
+            .booking-middle-btn
+            {
+                transform: translate(-50%, 0%);
+            }
+            
+            .fa-mobile-alt
+            {
+                font-size: 2em;
+            }
+            
+        }
+        

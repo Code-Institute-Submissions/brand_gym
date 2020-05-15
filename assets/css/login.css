@@ -1,5 +1,5 @@
- /*--------------------------------------------- GENERALS   */
-               
+ /*--------------------------------------------- GENERALS   */ 
+
         .uppercase 
         {
             text-transform: uppercase;
@@ -18,7 +18,7 @@
 
         .side-bar 
         {
-            background: pink;
+            background: #000;
         }
         
         
@@ -129,6 +129,13 @@
         }
         .contact-cont:hover 
         {
+            background: #525252;
+        }
+
+
+        .side-socials
+        {
+            height: 100vh;
             background: #525252;
         }
 
@@ -451,9 +458,10 @@
         .login-socials-main
         {
             display: flex;
+            justify-content: center;
             align-items: center;
             font-weight: bolder;
-            padding-left: 10px;
+            /* padding-left: 10px; */
         }
         
         .login-socials-cont
@@ -467,6 +475,14 @@
             transition-delay: .3s;
         }
         
+        .login-socials-main
+        {
+            position: absolute;
+            top: 50%;
+            right: 0;
+            flex-direction: column;
+            display: flex;
+        }
         
 /*      Hover for all Square Socials          */
         .login-socials-main .login-socials-cont .fa-google-plus-square:hover

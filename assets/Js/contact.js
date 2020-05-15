@@ -20,7 +20,7 @@
         
         
         
-        // Event Listeners
+        // Event Listeners         // Buttons for Toggeling
         contactReadMore.addEventListener('click', readMoreLess);
         contactReadLess.addEventListener('click', readMoreLess);
     
