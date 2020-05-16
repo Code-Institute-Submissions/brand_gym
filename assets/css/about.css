@@ -95,7 +95,7 @@
         .headline 
         {
             position: relative;
-            font-size: 4.2em;
+            font-size: 3.5em;
             margin-bottom: 80px;
             letter-spacing: 3px;
             font-weight: bold;
@@ -363,9 +363,15 @@
             .headline
             {
                 margin-top: 15%;
-                font-size: 3.5em;
-                /* color: #fafafa; */
+                color: #fafafa;
+                font-size: 2em;
+                position: absolute;
+                bottom: -8%;
+                width: 100vw;
+                left: 0;
             }
+
+           
         }
         
 /*      Mobile Phone         */
@@ -374,6 +380,9 @@
             .headline
             {
                 font-size: 2.5em;
+                position: absolute;
+                bottom: -8%;
+                left: 25%
             }
             .about-img p
             {
