@@ -475,14 +475,6 @@
             transition-delay: .3s;
         }
         
-        .login-socials-main
-        {
-            position: absolute;
-            top: 50%;
-            right: 0;
-            flex-direction: column;
-            display: flex;
-        }
         
 /*      Hover for all Square Socials          */
         .login-socials-main .login-socials-cont .fa-google-plus-square:hover
