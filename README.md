@@ -43,7 +43,7 @@ even getting free ideas or relevant data :sunglasses: ).
 
 
 ### :desktop_computer: GitHub Pages Link
-
+* https://robertmachamud.github.io/brand_gym/*
 
 
 ### :raising_hand_man: Author
