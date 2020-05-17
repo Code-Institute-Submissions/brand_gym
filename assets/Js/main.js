@@ -26,7 +26,7 @@
         
         window.onscroll = function() {  // Makes Header 'dispapper' while scrolling down
             let currentScrollPosition = window.pageYOffset;
-            console.log(currentScrollPosition)
+            // console.log(currentScrollPosition, prevScrollPosition)
             if (prevScrollPosition > currentScrollPosition) {
                 navbar.style.top = '0';
             } else {
@@ -132,23 +132,6 @@
         
 
 // ----------------------------------------------------------------------
-
-        // For Login
-        const loginBackBtn = document.querySelector('.loginBackBtn');
-        
-        
-        function goBack() {  // Go Back one Page
-            window.history.back();
-        }
-
-
-        loginBackBtn.addEventListener('click', goBack);
-
-
-
-
-
-
         
         
         //!!! Ask Sensei
