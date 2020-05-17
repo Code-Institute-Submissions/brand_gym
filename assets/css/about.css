@@ -109,7 +109,7 @@
         {
             content: '';
             position: absolute;
-            width: 15%;
+            width: 5%;
             height: 5px;
             background: darkorange;
             bottom: -.4em;
@@ -312,7 +312,8 @@
             /* background-color: #2ecc71; */
             background-color: darkorange;
         }
-        
+
+
         
 /*---------------------------------------------  NAVIGATION ARROW CONTAINER    */
 /*         
@@ -364,7 +365,7 @@
             {
                 margin-top: 15%;
                 font-size: 3.5em;
-                /* color: #fafafa; */
+                color: #fafafa;
             }
 
            
