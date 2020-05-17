@@ -2,25 +2,29 @@
 
 This is a simple Gym Website with a very creative Name :upside_down_face:
 The goal is simple - getting more customers/members. The user should get
-an overview what are the possibilities (like course plans, services etc.) and benefits (membership etc.)
-Right at the first look at it the customer has the possibilitiy to discover/navigate as simple as 
-possibel and get all the needed information or jump directly to the membership section. 
+an good overview what are the possibilities and benefits (course plans, services, information, membership etc.)
+There is a possibility right on the Landing Page to jump directly to the membership section.
+The idea of the page is easy -> Avoid scrolling, presenting the content as simple, short an visual as possibe 
+(makes it easier to memorize and takes less time to read). Also giving the user more then one possibility to navigate through the content.
 Good custumer service is key - there is a contact us section for all kind of questions and ideas 
-(company could benefit from good critisism to improve the user experience on the website and the gym 
-or getting free ideas or even/evtl. relevant data :sunglasses: ). 
+(company could benefit from good critisism to improve the user experience on the website and the gym -
+even getting free ideas or relevant data :sunglasses: ). 
 
-### :checkered_flag: Goals
+
+### :checkered_flag: Goals and Feautures
 
 * **Simple** and **intuitive** navigation (Sidebar, arrows)
 * A **logical** structure to minimize everything not needed
-* **Showing benefits** and **services** to motivate the user to buy
-* Using **Icons** to **simplify** the reading process (faster reading)
+* **Showing benefits** of Membership and appealing **Services** 
+* Using **Icons** to **simplify** the reading process (read faster)
+* Using **Simple Language** to give raeader less content/more info
 * **Minimize** footer content to not distract the user
-* **3-click buy system** (button - choose package - buy)
-* Custumer service / Contact section for **better user experience**
+* **3-click buy system** (button -> choose package -> buy) 
+* Custumer Service / Contact section for **better user experience**
 * **Avoid** too much **scrolling** for a better and simpler overview
-* All **Relevant** information is easy to spot
-* Buttons in the Footer - Option for **Booking** always visible
+* All **Relevant** information should be easy to spot and memorize
+* Buttons in the Footer - Option for **Booking** always **visible**
+* Giving more than one option to book a Service (as easy as possible)
 
 
 ### :keyboard: Built With
@@ -35,7 +39,7 @@ or getting free ideas or even/evtl. relevant data :sunglasses: ).
 * About us page -> Code for the picture Slider from Youtube
  (only the part of the function that slides the images)
   **Link to Video: https://www.youtube.com/watch?v=4YQ4svkETS0&t=213s* 
-* Inputs (those with two inputs in one row) -> bootstrap 
+* Inputs (those with two input fields in one row (login)) -> bootstrap 
 
 
 ### :desktop_computer: GitHub Pages Link

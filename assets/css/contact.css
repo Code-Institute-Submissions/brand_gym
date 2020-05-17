@@ -65,7 +65,7 @@
             align-items: center;
             flex-wrap: wrap;
             width: 100vw;
-            background: url('../images/selective-focus-of-a-boxer-s-fist-3562117.jpg') no-repeat;
+            background: url('../images/serious-sportsman-with-smartphone-walking-on-bridge-3799698') no-repeat;
             background-size: cover;
             height: 90vh;
         }
@@ -79,11 +79,10 @@
             background: #D76C66;
         }
 
-        .contact-contaniner
+        .contact-container
         {
             display: flex;
-            justify-content: space-around;
-            align-items: center;
+            justify-content: center;
             flex-wrap: wrap;
         }
 
@@ -97,7 +96,9 @@
             padding: 30px 45px 45px 45px;
             background: rgba(255, 255, 255, .25);
             border-radius: 2px;
-            width: 527px;
+            /* width: 527px; */
+            /* width: auto; */
+            width: 50%;
             text-align: center;   
             box-shadow: 2px 2px 15px 1px rgba(0, 0, 0, .3);
             transition: .3s;
@@ -258,8 +259,8 @@
             box-shadow: 1px 10px 25px 2px rgba(0, 0, 0, .7);
             border-radius: 2px;
             padding: 50px;
-/*            width: 45%;*/
-            width: 30em;
+           width: 50%;
+            /* width: 30em; */
             text-align: center;
             display: flex;
             flex-direction: column;
@@ -388,7 +389,17 @@
                 font-size: 3em;
                 margin-bottom: 10%;
             }
+
+            .contact-contaniner
+            {
+                align-items: center;
+            }
             
+            .contact-cont
+            {
+                width: 527px;
+            }
+
             .contact-headline
             {
                 font-size: 1.8em;
@@ -435,11 +446,12 @@
                 padding: 10%;
             }
             
-            .contact-cont
+            .contact-cont 
             {
                 padding: 5%;
                 box-shadow: none;
                 padding-top: 10%;
+                width: auto;
             }
             
             .contact-txt-cont
