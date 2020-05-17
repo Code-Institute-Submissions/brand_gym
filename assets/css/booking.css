@@ -50,6 +50,17 @@
 /*            color: rgba(255, 255, 255, .6);*/
             color: #fafafa;
         }
+        .booking-headline:before 
+        {
+            content: '';
+            position: absolute;
+            left: 50%;
+            bottom: 5px;
+            transform: translateX(-50%);
+            width: 20%;
+            height: 5px;
+            background: darkorange;
+        }
         
         
         
