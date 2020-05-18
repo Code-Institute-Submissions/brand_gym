@@ -7,7 +7,7 @@
         const memberSliders = document.querySelectorAll('.wide-slidein');
         const mobileWideConts = document.querySelectorAll('.mobile-wide-cont');
         
-        console.log('lsdjlfjslhlkdjfhg;lkwjdhfgklhkjhakfa.');
+        // console.log('lsdjlfjslhlkdjfhg;lkwjdhfgklhkjhakfa.');
         
        // Functions        
        function hideMemberBtnsCups() {  // Hides Cups and Buttons Behind Card
