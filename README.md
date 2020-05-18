@@ -2,11 +2,12 @@
 
 This is a simple Gym Website with a very creative Name :upside_down_face:
 The goal is simple - getting more customers/members. The user should get
-an good overview what are the possibilities and benefits (course plans, services, information, membership etc.)
-There is a possibility right on the Landing Page to jump directly to the membership section.
-The idea of the page is easy -> Avoid scrolling, presenting the content as simple, short an visual as possibe 
-(makes it easier to memorize and takes less time to read). Also giving the user more then one possibility to navigate through the content.
-Good custumer service is key - there is a contact us section for all kind of questions and ideas 
+a good overview what are the possibilities and benefits (course plans, services, information, membership etc.)
+There is a button right on the Landing Page to jump directly to the membership section (Main purpouse of the website).
+The idea/principle is easy -> Avoid scrolling, presenting the content as simple, short an visual as possibe 
+(makes it easier to memorize and takes less time to read). Also giving the user more then one possibility to navigate 
+through the content (Sidebar, Footer, Navigation Arrow).
+Good custumer service is key - there is a contact-us-section for all kind of questions and ideas 
 (company could benefit from good critisism to improve the user experience on the website and the gym -
 even getting free ideas or relevant data :sunglasses: ). 
 
