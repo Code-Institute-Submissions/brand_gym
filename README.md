@@ -2,10 +2,6 @@
   :weight_lifting: Brand Gym
 </h1>
 
-<a href="https://robertmachamud.github.io/brand_gym/" align="center">
-  View the live project here
-</a>
-
 <p align="center">
   This is a simple Gym Website with a very creative Name :upside_down_face:
   It is responsive and viewable on multible devices. The design might appear a little unorthodox at first
@@ -13,9 +9,11 @@
   -> It's for members and potentional clients.
 </p>
 
-<a href="https://robertmachamud.github.io/brand_gym/" align="center">
-  View the live project here
-</a>
+<p align="center">
+  <a href="https://robertmachamud.github.io/brand_gym/">
+   View the live project here
+  </a>
+</p>
 
 <p align="center">
   <img width="460" height="300" src="http://www.fillmurray.com/460/300">
