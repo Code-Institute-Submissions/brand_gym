@@ -3,9 +3,9 @@
 </h1>
 
 <p align="center">
-  This is a simple Gym Website with a very creative Name :upside_down_face:
+  This is a simple Gym Website with a very creative Name :upside_down_face: -
   It is responsive and viewable on multible devices. The design might appear a little unorthodox at first
-  but through this the site is becomming intuitive and easy to navigate.
+  but through this the site is becomming intuitive and easy to navigate.<br>
   -> It's for members and potentional clients.
 </p>
 
