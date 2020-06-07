@@ -1,10 +1,20 @@
 <h1 align="center">
-  # :weight_lifting: Brand Gym
+  :weight_lifting: Brand Gym
 </h1>
 
 <p align="center">
   <img width="460" height="300" src="http://www.fillmurray.com/460/300">
 </p>
+
+# 
+
+
+
+
+
+
+
+
 
 This is a simple Gym Website with a very creative Name :upside_down_face:
 The goal is simple - getting more customers/members. The user should get
