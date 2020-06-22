@@ -13,6 +13,7 @@
   <a href="https://robertmachamud.github.io/brand_gym/">
    View the live project here
   </a>
+  <br>
 </p>
 
 <p align="center">
