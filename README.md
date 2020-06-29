@@ -114,16 +114,19 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
       i. As a first time visitor, I want to have a good overview of the content and I want to quickly understand the main purpose of the site.
 
-        a. When the users are entering the site, they're getting greeted by a little animation which reveals a short and understandible text that describes the purpouse of the site - also there is a button which brigs the users directly to the membership section/page - 3-click buy system (click button -> choose package -> buy) (could be in the returning visitor goals section - if the users already checked out the website and just needed some time to think or whatever reason - the goal is to give potentioal customers a qick and uncomplicated buying process (just 3 clicks needed)).
-        b. The background picture (and the headline) implies and makes clear that it's a gym website without even having to read any content.
-        c. The users have multible and intuitive (/obvious) options to go further and discover the website.
-        d. Icons (Font Awesome) are simplifying the reading process so it's easier and quicker to read through the content - Also the content (text) is kept as short, simple and understandible as possible to improving the user experience and reading speed.
-        e. Scrolling is kept to a minimum (or totally avoided in the desktop version) to give the users a good overview and to improve the user experience.
+        a.When the users are entering the site, they're getting greeted by a little animation which reveals a short and understandible text that
+          describes the purpouse of the site - also there is a button which brigs the users directly to the membership section/page - 3-click buy system (click button -> choose package -> buy) (could be in the returning visitor goals section - if the users already checked out the website and just needed some time to think or whatever reason - the goal is to give potentioal customers a qick and uncomplicated buying process (just 3 clicks needed)).
+        b.The background picture (and the headline) implies and makes clear that it's a gym website without even having to read any content.
+        c.The users have multible and intuitive (/obvious) options to go further and discover the website.
+        d.Icons (Font Awesome) are simplifying the reading process so it's easier and quicker to read through the content - Also the content (text)
+          is kept as short, simple and understandible as possible to improving the user experience and reading speed.
+        e.Scrolling is kept to a minimum (or totally avoided in the desktop version) to give the users a good overview and to improve the
+          user experience.
 
 
       ii. As a first time visitor, I want to be able to navigate easily through all the different sections/pages without any complications as simple as possible. also I want to have more than one option to navigate.
 
-        a. The site has been designed to be fluid and never to entrap the user. There is a fixed sidebar which is visible on every single section/page (except the 404 section/page) to always keep the users informed about the navigational options. The navigation links are in an logical order so the users can go from top to bottom (vertical) to get all the information. There is also an other reason for the fixed sidebar and the logical order -> the navigation arrows at the bottom. These arrows are an other (quick , intuitive and comfortable) way to navigate through the site. These arrows are becoming much more handy on mobile devices - so the users don't always have to open the sidebar while i.e. "discovering" or just clicking through.
+        a.The site has been designed to be fluid and never to entrap the user. There is a fixed sidebar which is visible on every single section/page (except the 404 section/page) to always keep the users informed about the navigational options. The navigation links are in an logical order so the users can go from top to bottom (vertical) to get all the information. There is also an other reason for the fixed sidebar and the logical order -> the navigation arrows at the bottom. These arrows are an other (quick , intuitive and comfortable) way to navigate through the site. These arrows are becoming much more handy on mobile devices - so the users don't always have to open the sidebar while i.e. "discovering" or just clicking through.
         for making the navigation links more intuitive there are icons next to them. These icons are also at the bottom (footer) to make it easier for the user to know where they currently "are".
 
       iii. As a first time visitor, I want to be able to see all important contact details (like phone number, email or address) and easily get in touch with the team for eventual questions (contact section/page).
@@ -207,11 +210,11 @@ By forking the GitHub Repository we make a copy of the original repository on ou
   7. Press Enter. Your local clone will be created.
 
 $ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
-> /> Cloning into `CI-Clone`...
-> /> remote: Counting objects: 10, done.
-> /> remote: Compressing objects: 100% (8/8), done.
-> /> remove: Total 10 (delta 1), reused 10 (delta 1)
-> /> Unpacking objects: 100% (10/10), done.
+> Cloning into `CI-Clone`...
+> remote: Counting objects: 10, done.
+> remote: Compressing objects: 100% (8/8), done.
+> remove: Total 10 (delta 1), reused 10 (delta 1)
+> Unpacking objects: 100% (10/10), done.
 
 Click <a href="https://help.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository#cloning-a-repository-to-github-desktop">Here</a> to retrieve pictures for some of the buttons and more detailed explanations of the above process.
 
