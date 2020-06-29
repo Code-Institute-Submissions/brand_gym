@@ -14,6 +14,7 @@
   <br>
 </p>
 
+<p align="center">
   <img width="600" src="https://res.cloudinary.com/dxcrd5sos/image/upload/v1593398280/three-woman-in-assorted-color-sport-bras-holding-and-905336_cyyoyf.jpg">
 </p>
 
