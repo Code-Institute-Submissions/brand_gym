@@ -4,8 +4,7 @@
 
   This is a simple Gym Website with a very creative Name :upside_down_face: -
   It is responsive and viewable on multible devices. The design might appear a little unorthodox at first
-  but through this the site is becomming intuitive and easy to navigate.<br>
-  It's for members and potentional clients.
+  but through this the site is becomming intuitive and easy to navigate. It's for members and potentional clients.
 
 <p align="center">
   <a href="https://robertmachamud.github.io/brand_gym/">
@@ -24,28 +23,28 @@
 
 - User stories
 
-  -First Time Visitor Goals
-    a. As a first time visitor, I want to have a good overview of the content and I want to quickly understand the main purpose of the site.
-    b. As a first time visitor, I want to be motivated to click through the different sections/pages.
-    c. As a first time visitor, I want to be able to navigate easily through all the different sections/pages without any complications as simple as possible. also I want to have more than one option to navigate.
-    d. As a first time visitor, I want to be able to get all the informations (like services, courses, etc) as short and understandible as possible
-    e. As a first time visitor, I want to be able to see all important contact details (like phone number, email or address) and easily get in touch with the team for eventual questions (contact section/page).
-    f. As a first time visitior, I want to be able to take a short cut straight to the member section/page (main purpose) and have as less steps/clicks as possilbe for buying one of the membership.
+  - First Time Visitor Goals
+      a. As a first time visitor, I want to have a good overview of the content and I want to quickly understand the main purpose of the site.
+      b. As a first time visitor, I want to be motivated to click through the different sections/pages.
+      c. As a first time visitor, I want to be able to navigate easily through all the different sections/pages without any complications as simple as possible. also I want to have more than one option to navigate.
+      d. As a first time visitor, I want to be able to get all the informations (like services, courses, etc) as short and understandible as possible
+      e. As a first time visitor, I want to be able to see all important contact details (like phone number, email or address) and easily get in touch with the team for eventual questions (contact section/page).
+      f. As a first time visitior, I want to be able to take a short cut straight to the member section/page (main purpose) and have as less steps/clicks as possilbe for buying one of the membership.
 
   - Returning Visitor Goals
-    a. As a returning visitor, I want to quickly see or download the gym schedule.
-    b. As a returning visitor, I want to get in contact with the gym for asking questions or expressing my ideas (i.e. - for improving the user expirience).
-    c. As a returning visitor, I want to easily reread all the informaiton I want/need.
-    d. As a returning visitor, I want to book a service of my choice.
-    e. As a returning visitor, I might want to rethink my descission if I didn't get/buy a membership. 
+      a. As a returning visitor, I want to quickly see or download the gym schedule.
+      b. As a returning visitor, I want to get in contact with the gym for asking questions or expressing my ideas (i.e. - for improving the user expirience).
+      c. As a returning visitor, I want to easily reread all the informaiton I want/need.
+      d. As a returning visitor, I want to book a service of my choice.
+      e. As a returning visitor, I might want to rethink my descission if I didn't get/buy a membership. 
 
   - Frequent User Goals
-    a. As a frequent user, I want to quickly check if the gym schedule changed or got optimized (I want to stay up to date).
-    b. As a frequent user, I want to be informed about any new courses, services or events (general changes/updates)
-    c. As a frequent user, I want to be motivated to use the full spectrum of the site - i.e. by downloading the app (or other services - updates might come as well).
-    d. As a frequent user, I want to be comfortable and able to use the booking service.
-    e. As a frequent user, I want to be able to contact the gym as uncomplicated and easy as possible.
-    f. As a frequent user, I want to be able to sign up - for having more benefits (comming soon).
+      a. As a frequent user, I want to quickly check if the gym schedule changed or got optimized (I want to stay up to date).
+      b. As a frequent user, I want to be informed about any new courses, services or events (general changes/updates)
+      c. As a frequent user, I want to be motivated to use the full spectrum of the site - i.e. by downloading the app (or other services - updates might come as well).
+      d. As a frequent user, I want to be comfortable and able to use the booking service.
+      e. As a frequent user, I want to be able to contact the gym as uncomplicated and easy as possible.
+      f. As a frequent user, I want to be able to sign up - for having more benefits (comming soon).
 
 
 - Design
@@ -92,15 +91,15 @@
 ### Frameworks, Libraries & Programs Used
 
 1. <a href="https://getbootstrap.com/docs/4.5/getting-started/introduction/">Bootstrap 4.5.0:</a> 
-  - Bootstrap was used to assist with the responsiveness and styling of the website.
+    - Bootstrap was used to assist with the responsiveness and styling of the website.
 2. <a href="https://fontawesome.com/">Font Awesome:</a> 
-  - Font Awesome was used on all pages throughout the website to add icons for aesthetic and UX purposes.
+    - Font Awesome was used on all pages throughout the website to add icons for aesthetic and UX purposes.
 3. <a href="https://git-scm.com/">Git</a> 
-  - Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
+    - Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
 4. <a href="https://github.com/">GitHub:</a> 
-  - GitHub is used to store the projects code after being pushed from Git.
+    - GitHub is used to store the projects code after being pushed from Git.
 5. <a href="https://balsamiq.com/">Balsamiq:</a> 
-  - Balsamiq was used to create the wireframes during the design process.
+    - Balsamiq was used to create the wireframes during the design process.
 
 
 ## Testing
@@ -204,15 +203,15 @@ By forking the GitHub Repository we make a copy of the original repository on ou
   4. Open Git Bash
   5. Change the current working directory to the location where you want the cloned directory to be made.
   6. Type git clone, and then paste the URL you copied in Step 3.
-$ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
+> $ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
   7. Press Enter. Your local clone will be created.
 
 $ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
-> Cloning into `CI-Clone`...
-> remote: Counting objects: 10, done.
-> remote: Compressing objects: 100% (8/8), done.
-> remove: Total 10 (delta 1), reused 10 (delta 1)
-> Unpacking objects: 100% (10/10), done.
+> > Cloning into `CI-Clone`...
+> > remote: Counting objects: 10, done.
+> > remote: Compressing objects: 100% (8/8), done.
+> > remove: Total 10 (delta 1), reused 10 (delta 1)
+> > Unpacking objects: 100% (10/10), done.
 
 Click <a href="https://help.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository#cloning-a-repository-to-github-desktop">Here</a> to retrieve pictures for some of the buttons and more detailed explanations of the above process.
 
@@ -246,39 +245,7 @@ Click <a href="https://help.github.com/en/github/creating-cloning-and-archiving-
 
 
 
-This is a simple Gym Website with a very creative Name :upside_down_face:
-The goal is simple - getting more customers/members. The user should get
-a good overview what are the possibilities and benefits (course plans, services, information, membership etc.)
-There is a button right on the Landing Page to jump directly to the membership section (Main purpouse of the website).
-The idea/principle is easy -> Avoid scrolling, presenting the content as simple, short an visual as possibe 
-(makes it easier to memorize and takes less time to read). Also giving the user more then one possibility to navigate 
-through the content (Sidebar, Footer, Navigation Arrow).
-Good custumer service is key - there is a contact-us-section for all kind of questions and ideas 
-(company could benefit from good critisism to improve the user experience on the website and the gym -
-even getting free ideas or relevant data :sunglasses: ). 
 
-
-### :checkered_flag: Goals and Feautures
-
-* **Simple** and **intuitive** navigation (Sidebar, arrows)
-* A **logical** structure to minimize everything not needed
-* **Showing benefits** of Membership and appealing **Services** 
-* Using **Icons** to **simplify** the reading process (read faster)
-* Using **Simple Language** to give raeader less content/more info
-* **Minimize** footer content to not distract the user
-* **3-click buy system** (button -> choose package -> buy) 
-* Custumer Service / Contact section for **better user experience**
-* **Avoid** too much **scrolling** for a better and simpler overview
-* All **Relevant** information should be easy to spot and memorize
-* Buttons in the Footer - Option for **Booking** always **visible**
-* Giving more than one option to book a Service (as easy as possible)
-
-
-### :keyboard: Built With
-
-1. HTML
-2. CSS / Bootstrap
-3. Javascript
 
 
 ### :smiling_imp: Copied Code Snippets
@@ -287,12 +254,3 @@ even getting free ideas or relevant data :sunglasses: ).
  (only the part of the function that slides the images)
   **Link to Video: https://www.youtube.com/watch?v=4YQ4svkETS0&t=213s* 
 * Inputs (those with two input fields in one row (login)) -> bootstrap 
-
-
-### :desktop_computer: GitHub Pages Link
-* https://robertmachamud.github.io/brand_gym/*
-
-
-### :raising_hand_man: Author
-
-Robert M.
