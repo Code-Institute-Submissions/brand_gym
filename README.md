@@ -14,10 +14,7 @@
   <br>
 </p>
 
-<p align="center">
-  <img width="500" height="400" src="https://res.cloudinary.com/dxcrd5sos/image/upload/v1593398201/sven-mieke-optBC2FxCfc-unsplash_v2zalt.jpg">
-
-  <img width="550" height="450" src="https://res.cloudinary.com/dxcrd5sos/image/upload/v1593398280/three-woman-in-assorted-color-sport-bras-holding-and-905336_cyyoyf.jpg">
+  <img width="600" src="https://res.cloudinary.com/dxcrd5sos/image/upload/v1593398280/three-woman-in-assorted-color-sport-bras-holding-and-905336_cyyoyf.jpg">
 </p>
 
 # 
