@@ -116,10 +116,13 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
         a.When the users are entering the site, they're getting greeted by a little animation which reveals a short and understandible text that
           describes the purpouse of the site - also there is a button which brigs the users directly to the membership section/page - 3-click buy system (click button -> choose package -> buy) (could be in the returning visitor goals section - if the users already checked out the website and just needed some time to think or whatever reason - the goal is to give potentioal customers a qick and uncomplicated buying process (just 3 clicks needed)).
+
         b.The background picture (and the headline) implies and makes clear that it's a gym website without even having to read any content.
         c.The users have multible and intuitive (/obvious) options to go further and discover the website.
+
         d.Icons (Font Awesome) are simplifying the reading process so it's easier and quicker to read through the content - Also the content (text)
           is kept as short, simple and understandible as possible to improving the user experience and reading speed.
+          
         e.Scrolling is kept to a minimum (or totally avoided in the desktop version) to give the users a good overview and to improve the
           user experience.
 
