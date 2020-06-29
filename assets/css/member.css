@@ -47,7 +47,7 @@
             align-items: center;
             font-size: 2.8em;
             border-radius: 2px;
-            border: solid 3px rgba(2555,255,255,.8);
+            /* border: solid 3px rgba(255,255,255,.8); */
             padding: 1px 5px;
             color: #fafafa;
             transition: .3s;
@@ -78,7 +78,6 @@
             transform: translate(-50%);
             border: none;
             padding: 10px 15px;
-            font-size: ;
             font-weight: bolder;
             background: darkorange;
             z-index: 1;
@@ -266,7 +265,6 @@
 
         .member-card-list-cont ul li {
             display: flex;
-            font-size: ;
             font-weight: bolder;
             color: #fafafa;
         }
@@ -283,7 +281,6 @@
 
         .member-card-icon {
             color: darkorange;
-            font-size: ;
         }
 
 
@@ -413,7 +410,6 @@
         {
             position: relative;
             font-weight: bolder;
-            font-size: ;
             color: #000;
             margin-bottom: 25px;
         }

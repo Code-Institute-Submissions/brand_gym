@@ -171,7 +171,7 @@
         .forward-btn-link
         {
             color: rgba(0,0,0,.8);
-            animation: 3pear .4s forwards ease;
+            /* animation: appear .4s forwards ease; */
             animation-delay: 5.38s;
             opacity: 0;
             transform: scale(.9);
@@ -613,7 +613,7 @@
             font-size: small;
             color: #fafafa;
             font-weight: 500;
-            transition: .3;
+            /* transition: .3s; */
         }
         
         .footer-contact
@@ -673,7 +673,7 @@
         {
             margin-right: 50px;
             background: transparent;
-            border: solid 2px rgba(2555,255,255,.8);
+            /* border: solid 2px rgba(255,255,255,.8); */
             padding: 5px 10px;
             color: #fafafa;
             transition: .5s;
@@ -681,7 +681,7 @@
         }
         .footer-btn:hover
         {
-            box-shadow: 1px 2px 15px rgba(2555,255,255,.6);
+            /* box-shadow: 1px 2px 15px rgba(255,255,255,.6); */
             color: #fafafa;
         }
         
@@ -819,8 +819,6 @@
 */
             background: #fafafa;
             background: crimson;
-            background: ;
-            
             animation: ani-slide-bg-footer .6s forwards;
             animation-delay: 4.3s;
         }
