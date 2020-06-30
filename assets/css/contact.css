@@ -75,8 +75,17 @@
             position: absolute;
             width: 100%;
             height: 100%;
-            opacity: .5;
             background: #D76C66;
+            animation: ani-bg-filter-contact 2s forwards ease-in-out;
+            animation-delay: 1.2s;
+        }
+
+        @keyframes ani-bg-filter-contact
+        {
+            to
+            {
+                opacity: .5;
+            }
         }
 
         .contact-container

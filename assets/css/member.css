@@ -114,10 +114,10 @@
             width: 100%;
             height: 100%;
             background: rgb(142, 84, 233);
-            animation: ani-bg-filter-member 3s forwards ease-in-out;
-            animation-delay: 1.5s;
+            animation: ani-bg-filter-member 2s forwards ease-in-out;
+            animation-delay: 1.2s;
         }
-        @keyframes ani-bg-filter
+        @keyframes ani-bg-filter-member
         {
             to
             {

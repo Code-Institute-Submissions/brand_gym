@@ -126,6 +126,8 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
         e.Scrolling is kept to a minimum (or totally avoided in the desktop version) to give the users a good overview and to improve the
           user experience.
 
+        f.Virtual tour avalible - improves first time experience.
+
 
       ii. As a first time visitor, I want to be able to navigate easily through all the different sections/pages without any complications as simple as possible. also I want to have more than one option to navigate.
 
