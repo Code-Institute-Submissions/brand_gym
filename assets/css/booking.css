@@ -58,7 +58,7 @@
             margin-bottom: 80px;
             letter-spacing: 3px;
             font-weight: bold;
-            margin-top: 10%;
+            margin-top: 6%;
             text-align: center;
 /*            color: rgba(255, 255, 255, .6);*/
             color: #fafafa;
@@ -109,7 +109,12 @@
             border: none;
             border-radius: 2px;
             color: #000;
+            transition: .3s;
             cursor: pointer;
+        }
+        .booking-bottom-btns:hover
+        {
+            color: #fafafa;
         }
         .booking-middle-btn
         {

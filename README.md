@@ -54,7 +54,7 @@
     - The sidebar and the footer are consitent and have always the same color schemes while every section/page has it's own.
     - A dark colored scheme got chosen for the footer/sidebar for a better optical separation and less destraction from the main content.
     - For making the 404 Page looking more interesting/vivid there is a little color changing background animation.
-    - A mostly white (#fafafa) font color got chosen to have a nice and clean contrast to the colorful background colors.
+    - A mostly white (#fafafa not #fff) font color got chosen to have a nice and clean contrast to the colorful background colors and the dark backgrounds (footer, sidebar).
     - Font awesome icons and buttons are darkorange to make them pop out a little and keep them visible on colorful and on dark background (and for a nice contrast).
 
   - Typography
