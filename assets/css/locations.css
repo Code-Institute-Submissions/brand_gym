@@ -364,12 +364,10 @@
                 height: auto;
             }
 
-            /* .fjalsdjlaslakjhglkjahgkljhasgjhksjhgjtrtgs
+            .mobile-sidebar
             {
-                position: fixed;
-                top: 82%;
-                padding: 0 3%;
-            } */
+                background: #525252;
+            }
         }
         
         
@@ -397,6 +395,15 @@
              {
                  justify-content: center
              }
+
+            .mobile-footer-contacts
+            {
+                position: fixed;
+                height: 100vh;
+                width: 100vw;
+                z-index: 9999;
+                padding-top: 0;
+            }
         }
         
         

@@ -700,7 +700,7 @@
             display: flex;
             justify-content: space-between;
             padding: 0 51px;
-            z-index: 9999999999;
+            z-index: 999999;
         }
         
         .nav-arrow
@@ -939,7 +939,7 @@
         
 /*      Animation for Slide Button      */
         .slide-btn {
-            position: relative;
+            /* position: relative; */
             padding: 20px 100px 20px 30px;
             border: none;
             background: darkorange;
@@ -1023,7 +1023,6 @@
                 display: none !important;
             }
 
-            
         }
         
         

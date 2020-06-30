@@ -55,7 +55,7 @@
         {
             to
             {
-                opacity: .9;
+                opacity: .7;
             }
         }
 
@@ -294,7 +294,7 @@
         .location-card-btn 
         {
             transform: translateX(-180%);
-            transition: .2s;
+            /* transition: .2s; */
             opacity: 0;
             
 /*          Transition  - Animation for Slide in Content   */
@@ -376,12 +376,11 @@
             {
                 margin: 1%;
             }
-/* 
-            .fjalsdjlaslakjhglkjahgkljhasgjhksjhgjtrtgs
+
+            .mobile-sidebar
             {
-                position: fixed;
-                top: 82%;
-            } */
+                background: #525252;
+            }
         }
         
         
@@ -399,6 +398,15 @@
                 height: auto;
                 width: 260px;
                 margin: 5px;
+            }
+
+            .mobile-footer-contacts
+            {
+                position: fixed;
+                height: 100vh;
+                width: 100vw;
+                z-index: 9999;
+                padding-top: 0;
             }
         }
         
