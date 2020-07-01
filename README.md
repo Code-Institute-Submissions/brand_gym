@@ -135,7 +135,7 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
       1. Relevant content is always visible - e.g. contact details, booking section, schedule, and the downloadable app (footer) or the sign-in/up button.
       2. The contact section/page is easy to get to and the user has an understandable form to easily get in touch with the gym. By choosing a topic the service team can respond more quickly for example.
 
-- Returning Visitor Goals
+  - Returning Visitor Goals
 
     1. As a returning visitor, I want to quickly see or download the gym schedule.
       1. There is a button in the footer where the users can easily download the schedule.
