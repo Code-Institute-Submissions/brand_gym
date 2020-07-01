@@ -6,6 +6,7 @@
         const footerContactsHideBtn = document.querySelector('.footer-contact-hide-btn');
         const footerContactsRevealBtn = document.querySelector('.footer-contact-reveal-btn');
         const footerBtnCont = document.querySelectorAll('.footer-btn-cont')[1];
+        const footerBtns = document.querySelectorAll('.footer-btn')
         const followUs = document.querySelector('.socials-span');
         
         // Burger Variables
@@ -42,7 +43,7 @@
 
 //      BUTTONS
         
-        // Contacts Buttons
+        // Reveal Contact - Button
         function revealFooterContacts() {  // Reveals Contacts - Open
             footerContacts.forEach(c => c.classList.remove('footer-contacts-hide'));
             
@@ -54,17 +55,25 @@
                 footerBtnCont.style.marginLeft = "110px";
             }
             
+            // Social-Container, Icon, Buttons disappear
+            if (screen.width < 1600 && screen.width > 768) {
+                // Removes Footer Btns
+                footerBtnCont.classList.add('disp-none');
+                console.log('check none');
+            } else if (screen.width <= 768) {
+                navIcon.classList.add('footer-btn-cont-md-toggle');
+                footerBtnCont.classList.add('footer-btn-cont-md-toggle');
+                socialsCont.classList.add('footer-btn-cont-md-toggle');
+            }
+
             // 'Follow us' disappears
             if (screen.width > 768) {
                 followUs.style.display = 'none';
             }
             
-            // Social-Container, Icon, Buttons disappear
-            if (screen.width <= 768) {
-                navIcon.classList.add('footer-btn-cont-md-toggle');
-                footerBtnCont.classList.add('footer-btn-cont-md-toggle');
-                socialsCont.classList.add('footer-btn-cont-md-toggle');
-            }
+            footerBtns.forEach(b => b.style.animationDelay = '.1s');
+            footerContactsRevealBtn.style.animationDelay = '.1s';
+            followUs.style.animationDelay = '.1s';
         }
         
         
@@ -86,13 +95,16 @@
             }
             
             // Social-Container, Icon, Buttons appear
-            if (screen.width <= 768) {
+            if (screen.width < 1600 && screen.width > 768) {
+                // Makes Footer Btns appear again
+                footerBtnCont.classList.remove('disp-none');
+                console.log('check display');
+            } else if (screen.width <= 768) {
                 navIcon.classList.remove('footer-btn-cont-md-toggle');
                 footerBtnCont.classList.remove('footer-btn-cont-md-toggle');
                 socialsCont.classList.remove('footer-btn-cont-md-toggle');
-                // !!!! ASK SENSEI
-                footerContactsHideBtn.style.animationDelay = "0s";
             }
+
         }
         
         // Footer Contacts Eventlistener
@@ -133,14 +145,3 @@
 
 // ----------------------------------------------------------------------
         
-        
-        //!!! Ask Sensei
-        if (screen.width <= 576) {
-            footerContacts.forEach(c => c.classList.remove('footer-contacts-hide'));
-        }
-        else {
-            footerContacts.forEach(c => c.classList.add('footer-contacts-hide'));
-        }
-        
-        
-    

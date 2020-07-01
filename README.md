@@ -114,7 +114,7 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
   - First Time Visitor Goals
 
-    1. As a first time visitor, I want to have a good overview of the content and I want to quickly understand the main purpose of the site.\
+    1. As a first time visitor, I want to have a good overview of the content and I want to quickly understand the main purpose of the site.
 
         1. When the users are entering the site, they're getting greeted by a little animation which reveals a short and understandable text that describes the purpose of the site - also there is a button which brings the users directly to the membership section/page - 3-click buy system (click button -> choose package -> buy) (could be in the returning visitor goals section - if the users already checked out the website and just needed some time to think or whatever reason - the goal is to give potential customers a quick and uncomplicated buying process (just 3 clicks needed)).
         2. The background picture (and the headline) implies and makes clear that it's a gym website without even having to read any content.
