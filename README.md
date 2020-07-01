@@ -116,38 +116,38 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
     1. As a first time visitor, I want to have a good overview of the content and I want to quickly understand the main purpose of the site.\
 
-      1. When the users are entering the site, they're getting greeted by a little animation which reveals a short and understandable text that describes the purpose of the site - also there is a button which brings the users directly to the membership section/page - 3-click buy system (click button -> choose package -> buy) (could be in the returning visitor goals section - if the users already checked out the website and just needed some time to think or whatever reason - the goal is to give potential customers a quick and uncomplicated buying process (just 3 clicks needed)).
-      2. The background picture (and the headline) implies and makes clear that it's a gym website without even having to read any content.
-      3. The users have multiple and intuitive (/obvious) options to go further and discover the website.
-      4. Icons (Font Awesome) are simplifying the reading process so it's easier and quicker to read through the content - Also the content (text)
-          is kept as short, simple, and understandable as possible to improving the user experience and reading speed.      
-      5. Scrolling is kept to a minimum (or completely avoided in the desktop version) to give the users a good overview and to improve the user experience.
-      6. Virtual tour available - improves first time experience.
+        1. When the users are entering the site, they're getting greeted by a little animation which reveals a short and understandable text that describes the purpose of the site - also there is a button which brings the users directly to the membership section/page - 3-click buy system (click button -> choose package -> buy) (could be in the returning visitor goals section - if the users already checked out the website and just needed some time to think or whatever reason - the goal is to give potential customers a quick and uncomplicated buying process (just 3 clicks needed)).
+        2. The background picture (and the headline) implies and makes clear that it's a gym website without even having to read any content.
+        3. The users have multiple and intuitive (/obvious) options to go further and discover the website.
+        4. Icons (Font Awesome) are simplifying the reading process so it's easier and quicker to read through the content - Also the content (text)
+            is kept as short, simple, and understandable as possible to improving the user experience and reading speed.      
+        5. Scrolling is kept to a minimum (or completely avoided in the desktop version) to give the users a good overview and to improve the user experience.
+        6. Virtual tour available - improves first time experience.
 
 
     2. As a first time visitor, I want to be able to navigate easily through all the different sections/pages without any complications as simple as possible. also, I want to have more than one option to navigate.
 
-      1. The site has been designed to be fluid and never to entrap the user. There is a fixed sidebar which is visible on every single section/page (except the 404 section/page) to always keep the users informed about the navigational options. The navigation links are in a logical order so the users can go from top to bottom (vertical) to get all the information. There is also another reason for the fixed sidebar and the logical order -> the navigation arrows at the bottom. These arrows are another (quick, intuitive, and comfortable) way to navigate through the site. These arrows are becoming much handier on mobile devices - so the users don't always have to open the sidebar while i.e. "discovering" or just clicking through.
-      for making the navigation links more intuitive there are icons next to them. These icons are also at the bottom (footer) to make it easier for the user to know where they currently "are".
+        1. The site has been designed to be fluid and never to entrap the user. There is a fixed sidebar which is visible on every single section/page (except the 404 section/page) to always keep the users informed about the navigational options. The navigation links are in a logical order so the users can go from top to bottom (vertical) to get all the information. There is also another reason for the fixed sidebar and the logical order -> the navigation arrows at the bottom. These arrows are another (quick, intuitive, and comfortable) way to navigate through the site. These arrows are becoming much handier on mobile devices - so the users don't always have to open the sidebar while i.e. "discovering" or just clicking through.
+        for making the navigation links more intuitive there are icons next to them. These icons are also at the bottom (footer) to make it easier for the user to know where they currently "are".
 
     3. As a first time visitor, I want to be able to see all important contact details (like phone number, email or address) and easily get in touch with the team for eventual questions (contact section/page).
 
-      1. Relevant content is always visible - e.g. contact details, booking section, schedule, and the downloadable app (footer) or the sign-in/up button.
-      2. The contact section/page is easy to get to and the user has an understandable form to easily get in touch with the gym. By choosing a topic the service team can respond more quickly for example.
+        1. Relevant content is always visible - e.g. contact details, booking section, schedule, and the downloadable app (footer) or the sign-in/up button.
+        2. The contact section/page is easy to get to and the user has an understandable form to easily get in touch with the gym. By choosing a topic the service team can respond more quickly for example.
 
   - Returning Visitor Goals
 
     1. As a returning visitor, I want to quickly see or download the gym schedule.
-      1. There is a button in the footer where the users can easily download the schedule.
+        1. There is a button in the footer where the users can easily download the schedule.
 
     2. As a returning visitor, I want to get in contact with the gym for asking questions or expressing my ideas (i.e. - for improving the user experience).
-      1. There is a contact section/page where the users can ask questions or even bring in their own ideas which might have the potential to improve services or other benefits.
-      2. Using/implementing good ideas from the users like i.e. new recipes can improve the relationship between the gym and their customers. For example -> my name is Peter and I've created a new healthy and tasty drink - now I simply can share it with the gym and voila - "Pete's Vitamin Vortex Deluxe" just got added to the meal/drink plan of the Brand Bar:)
-      3. There is a lot of potential for improving the website/gym/courses/services/user experience. 
+        1. There is a contact section/page where the users can ask questions or even bring in their own ideas which might have the potential to improve services or other benefits.
+        2. Using/implementing good ideas from the users like i.e. new recipes can improve the relationship between the gym and their customers. For example -> my name is Peter and I've created a new healthy and tasty drink - now I simply can share it with the gym and voila - "Pete's Vitamin Vortex Deluxe" just got added to the meal/drink plan of the Brand Bar:)
+        3. There is a lot of potential for improving the website/gym/courses/services/user experience. 
 
     3. As a returning visitor, I want to book a service of my choice.
-      1. There is a button in the footer which directs the users to the booking section/page
-      2. The users are getting motivated/reminded to download the app to make the booking process quicker and more comfortable (among other services).
+        1. There is a button in the footer which directs the users to the booking section/page
+        2. The users are getting motivated/reminded to download the app to make the booking process quicker and more comfortable (among other services).
 
 
   - Frequent User Goals
