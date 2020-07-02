@@ -100,16 +100,19 @@
     - GitHub is used to store the projects code after being pushed from Git.
 5. <a href="https://balsamiq.com/">Balsamiq:</a> 
     - Balsamiq was used to create the wireframes during the design process.
-6. <a href="https://balsamiq.com/">Squoosh:</a> 
+6. <a href="https://squoosh.app/index.html">Squoosh:</a> 
     - Squoosh was used to compress the images to increase loading speed.
+7. <a href="https://autoprefixer.github.io/">Autoprefixer:</a> 
+    - Autoprefixer was used to make sure that no prefixes are missing.
 
 
 
 ## Testing
 
-The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
+The W3C CSS Validator Services and Autoprefixer and were used to validate every page of the project to ensure there were no syntax errors in the project and no prefixes are missing.
 
 - <a href="https://jigsaw.w3.org/css-validator/#validate_by_input">W3C CSS Validator</a>
+- <a href="https://autoprefixer.github.io/">Autoprefixer</a>
 
 ### Testing User Stories from User Experience (UX) Section
 
