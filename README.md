@@ -104,13 +104,16 @@
     - Squoosh was used to compress the images to increase loading speed.
 7. <a href="https://autoprefixer.github.io/">Autoprefixer:</a> 
     - Autoprefixer was used to make sure that no prefixes are missing.
+8. <a href="https://www.freeformatter.com/html-formatter.html#ad-output">Freeformatter:</a> 
+    - Freeformatter was used for testing the HTML-format.
 
 
 
 ## Testing
 
-The W3C CSS Validator Services and Autoprefixer and were used to validate every page of the project to ensure there were no syntax errors in the project and no prefixes are missing.
+The Freeformatter, W3C CSS Validator Services and Autoprefixer and were used to validate every page of the project to ensure there were no syntax errors in the project and no prefixes are missing.
 
+- <a href="https://www.freeformatter.com/html-formatter.html#ad-output">Freeformatter</a> 
 - <a href="https://jigsaw.w3.org/css-validator/#validate_by_input">W3C CSS Validator</a>
 - <a href="https://autoprefixer.github.io/">Autoprefixer</a>
 
