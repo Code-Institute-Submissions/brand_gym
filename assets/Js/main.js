@@ -59,7 +59,7 @@
             if (screen.width < 1600 && screen.width > 768) {
                 // Removes Footer Btns
                 footerBtnCont.classList.add('disp-none');
-                console.log('check none');
+                // console.log('check none');
             } else if (screen.width <= 768) {
                 navIcon.classList.add('footer-btn-cont-md-toggle');
                 footerBtnCont.classList.add('footer-btn-cont-md-toggle');
@@ -98,7 +98,7 @@
             if (screen.width < 1600 && screen.width > 768) {
                 // Makes Footer Btns appear again
                 footerBtnCont.classList.remove('disp-none');
-                console.log('check display');
+                // console.log('check display');
             } else if (screen.width <= 768) {
                 navIcon.classList.remove('footer-btn-cont-md-toggle');
                 footerBtnCont.classList.remove('footer-btn-cont-md-toggle');
@@ -135,6 +135,12 @@
         // Footer Functions
         function footerMobile() {  // Toggles Footer for Mobile
                 footerContactsMobile.classList.toggle('footer-btn-cont-md-toggle');
+
+            // Reducing Animation Delay of Footer Btns and Social Icons
+            if (screen.width <= 576) {
+                footerBtns.forEach(b => b.style.animationDelay = '.1s');
+                document.querySelectorAll('.social-fab').forEach(s => s.style.animationDelay = '.1s');
+            }
         }
         
         // Footer Event Listener
