@@ -24,17 +24,17 @@
                         <h2 class="contact-headline">Welcome Back!</h2>
                         <!--Inputs - Email; Password                    -->
                         <div class="form-group">
-                            <input type="email" class="contact-input-name contact-input form-control" id="exampleFormControlInput1" placeholder="Email">
+                            <input type="email" aria-label="email" name="email" class="contact-input-name contact-input form-control" id="exampleFormControlInput1" placeholder="Email" required>
                         </div>
                         <div class="form-group">
-                            <input type="password" class="contact-input-name contact-input form-control" id="exampleFormControlInput1" placeholder="Password">
+                            <input type="password" aria-label="password" name="password" class="contact-input-name contact-input form-control" id="exampleFormControlInput1" placeholder="Password" required>
                         </div>
                         <!--Login - Checkbox Container; Forgot Password          -->
                         <ul class="login-check-main">
                             <li>
                                 <label>
                                     <span class="login-check-span">Remember<span class="invisible">I</span> &#8594</span>
-                                    <input type="checkbox">
+                                    <input type="checkbox" aria-label="remember" name="remember">
                                     <div class="login-check-icon-cont">
                                         <i class="login-check-icon fas fa-id-card-alt"></i>
                                     </div>
@@ -65,24 +65,24 @@
                         <h2 class="contact-headline">Not A Member Yet?</h2>
                         <!--Input - Name                             -->
                         <div class="form-group">
-                            <input type="email" class="contact-input-name contact-input form-control" id="exampleFormControlInput1" placeholder="Full Name*">
+                            <input type="email" aria-label="fname" name="fname" class="contact-input-name contact-input form-control" id="exampleFormControlInput1" placeholder="Full Name*" required>
                         </div>
                         <!--Input - Email; Password                  -->               
                         <div class="row">
                             <div class="col-12 col-md">
-                                <input type="text" class="contact-input-txt contact-input form-control" placeholder="Email Adress*">
+                                <input type="text" aria-label="email" name="email" class="contact-input-txt contact-input form-control" placeholder="Email Adress*" required>
                             </div>
                             <div class="col">
-                                <input type="password" class="contact-input-txt contact-input form-control" placeholder="Password*">
+                                <input type="password" aria-label="password" name="password" class="contact-input-txt contact-input form-control" placeholder="Password*" required>
                             </div>
                         </div>
                         <!--Input - Date; Phone                      -->               
                         <div class="row">
                             <div class="col-12 col-md">
-                                <input type="date" min="1920-01-01" value="2020-01-01" class="contact-input-txt contact-input form-control">
+                                <input type="date" aria-label="bdate" name="bdate" min="1920-01-01" value="2020-01-01" class="contact-input-txt contact-input form-control">
                             </div>
                             <div class="col">
-                                <input type="number" class="contact-input-txt contact-input form-control" placeholder="Phone Number">
+                                <input type="number" aria-label="pnumber" name="pnumber"  class="contact-input-txt contact-input form-control" placeholder="Phone Number">
                             </div>
                         </div>
                         <!--Checkbox and Terms                       -->
@@ -99,15 +99,15 @@
                                 <!--Radios                           -->
                                 <span class="resp-none login-member-radio-span">
                                 <label>
-                                <input type="radio" name="member-bronze">
+                                <input type="radio" aria-label="member-bronze" name="member-bronze">
                                 <i class="member-icons member-bronze fas fa-trophy"></i>
                                 </label>
                                 <label>
-                                <input type="radio" name="member-silver">
+                                <input type="radio" aria-label="member-silver" name="member-silver">
                                 <i class="member-icons member-silver fas fa-trophy"></i>
                                 </label>
                                 <label>
-                                <input type="radio" name="member-gold">
+                                <input type="radio" aria-label="member-gold" name="member-gold">
                                 <i class="member-icons member-gold fas fa-trophy"></i>
                                 </label>
                                 </span>

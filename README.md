@@ -1,4 +1,4 @@
-<h1 align="center">
+          <h1 align="center">
   :weight_lifting: Brand Gym
 </h1>
 
@@ -111,7 +111,7 @@
 
 ## Testing
 
-The Freeformatter, W3C CSS Validator Services and Autoprefixer and were used to validate every page of the project to ensure there were no syntax errors in the project and no prefixes are missing.
+The Freeformatter, W3C CSS Validator Services, and Autoprefixer and were used to validate every page of the project to ensure there were no syntax errors in the project and no prefixes are missing.
 
 - <a href="https://www.freeformatter.com/html-formatter.html#ad-output">Freeformatter</a> 
 - <a href="https://jigsaw.w3.org/css-validator/#validate_by_input">W3C CSS Validator</a>
@@ -178,8 +178,9 @@ The Freeformatter, W3C CSS Validator Services and Autoprefixer and were used to 
 
 ## Known Bugs
 
-  - Images are loading slowly - used <a href="https://squoosh.app/index.html">Squoosh</a> to compress the images - faster but still slow
-
+  - Images are loading slowly - I used <a href="https://squoosh.app/index.html">Squoosh</a> to compress the images mostly < 300kb -> it's faster now but still a little slow.
+    - As I was searching for solutions I consitered "Lazy Loading" i.e. <a href="https://www.sitepoint.com/five-techniques-lazy-load-images-website-performance/">here</a> but the Images are background images - not `<img>`. Apperently JavaScript is needed to solve this problem.
+    - To solve the problem with the main background images (main containers) I added an animation.
 
 # Deployment
 
@@ -244,7 +245,7 @@ Click <a href="https://help.github.com/en/github/creating-cloning-and-archiving-
   - Images downloaded from <a href="https://www.pexels.com/">Pexels</a>
 
 ## Acknowledgements
-  - My Mentor for his awesome help (tips, links, etc.) and his great energy
+  - My Mentor for his awesome help (tips, links, etc.), the long skype calls, and his great energy! :sunglasses:
   - Tutor support at Code Institute for their support.
 
 
