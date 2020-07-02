@@ -1,3 +1,10 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
         
         
 /*-------------------------------------------- GENERALS   */
@@ -39,7 +46,9 @@
         }
 
         .contact-submit-bttn:hover .arrow {
-            transform: translateY(-50%) translateX(4px);
+            -webkit-transform: translateY(-50%) translateX(4px);
+                -ms-transform: translateY(-50%) translateX(4px);
+                    transform: translateY(-50%) translateX(4px);
         }
 
         .arrow {
@@ -48,9 +57,15 @@
             position: absolute;
             right: 10px;
             top: 52%;
-            transform: translateY(-50%);
+            -webkit-transform: translateY(-50%);
+                -ms-transform: translateY(-50%);
+                    transform: translateY(-50%);
+            -webkit-transition: .5s;
+            -o-transition: .5s;
             transition: .5s;
-            transition-delay: .3s;
+            -webkit-transition-delay: .3s;
+                 -o-transition-delay: .3s;
+                    transition-delay: .3s;
         }
         
 
@@ -60,10 +75,16 @@
         .main-cont 
         {
             position: relative;
+            display: -webkit-box;
+            display: -ms-flexbox;
             display: flex;
-            justify-content: space-around;
-            align-items: center;
-            flex-wrap: wrap;
+            -ms-flex-pack: distribute;
+                justify-content: space-around;
+            -webkit-box-align: center;
+                -ms-flex-align: center;
+                    align-items: center;
+            -ms-flex-wrap: wrap;
+                flex-wrap: wrap;
             width: 100vw;
             background: url('../images/serious-sportsman-with-smartphone-walking-on-bridge-3799698.jpg') no-repeat;
             background-size: cover;
@@ -76,8 +97,18 @@
             width: 100%;
             height: 100%;
             background: #D76C66;
-            animation: ani-bg-filter-contact 2s forwards ease-in-out;
-            animation-delay: 1.2s;
+            -webkit-animation: ani-bg-filter-contact 2s forwards ease-in-out;
+                    animation: ani-bg-filter-contact 2s forwards ease-in-out;
+            -webkit-animation-delay: 1.2s;
+                    animation-delay: 1.2s;
+        }
+
+        @-webkit-keyframes ani-bg-filter-contact
+        {
+            to
+            {
+                opacity: .5;
+            }
         }
 
         @keyframes ani-bg-filter-contact
@@ -90,9 +121,14 @@
 
         .contact-container
         {
+            display: -webkit-box;
+            display: -ms-flexbox;
             display: flex;
-            justify-content: center;
-            flex-wrap: wrap;
+            -webkit-box-pack: center;
+                -ms-flex-pack: center;
+                    justify-content: center;
+            -ms-flex-wrap: wrap;
+                flex-wrap: wrap;
         }
 
 
@@ -106,9 +142,14 @@
             /* width: auto; */
             width: 50%;
             text-align: center;   
-            box-shadow: 2px 2px 15px 1px rgba(0, 0, 0, .3);
+            -webkit-box-shadow: 2px 2px 15px 1px rgba(0, 0, 0, .3);   
+                    box-shadow: 2px 2px 15px 1px rgba(0, 0, 0, .3);
+            -webkit-transition: .3s;
+            -o-transition: .3s;
             transition: .3s;
-            transition-delay: .3s;
+            -webkit-transition-delay: .3s;
+                 -o-transition-delay: .3s;
+                    transition-delay: .3s;
         }
         .contact-cont:hover {
             background: #525252;
@@ -128,9 +169,13 @@
             text-transform: capitalize;
             letter-spacing: .5px;
             margin-bottom: 40px;
+            -webkit-transition: .3s;
+            -o-transition: .3s;
             transition: .3s;
             /* ! */
-            transition-delay: .35s;
+            -webkit-transition-delay: .35s;
+                 -o-transition-delay: .35s;
+                    transition-delay: .35s;
         }
         .contact-headline:before 
         {
@@ -138,7 +183,9 @@
             position: absolute;
             left: 50%;
             bottom: -.5em;
-            transform: translateX(-50%);
+            -webkit-transform: translateX(-50%);
+                -ms-transform: translateX(-50%);
+                    transform: translateX(-50%);
             width: 20%;
             height: 4px;
             background: darkorange;
@@ -166,8 +213,10 @@
             letter-spacing: 1.2px;
             font-weight: bold;
             color: rgba(255, 255, 255, .8);
-            animation: appear-slide-up .3s forwards ease;
-            animation-delay: .6s;
+            -webkit-animation: appear-slide-up .3s forwards ease;
+                    animation: appear-slide-up .3s forwards ease;
+            -webkit-animation-delay: .6s;
+                    animation-delay: .6s;
             /*            transform: translateY(0%);*/
             opacity: 0;
             z-index: 5;
@@ -181,16 +230,33 @@
             background: darkorange;
             bottom: -.1em;
             left: 50%;
-            transform: translateX(-50%);
+            -webkit-transform: translateX(-50%);
+                -ms-transform: translateX(-50%);
+                    transform: translateX(-50%);
+        }
+
+        @-webkit-keyframes appear-slide-up {
+            0% {
+                -webkit-transform: translateY(70%);
+                        transform: translateY(70%);
+                opacity: 0;
+            }
+            100% {
+                -webkit-transform: translateY(0);
+                        transform: translateY(0);
+                opacity: 1;
+            }
         }
 
         @keyframes appear-slide-up {
             0% {
-                transform: translateY(70%);
+                -webkit-transform: translateY(70%);
+                        transform: translateY(70%);
                 opacity: 0;
             }
             100% {
-                transform: translateY(0);
+                -webkit-transform: translateY(0);
+                        transform: translateY(0);
                 opacity: 1;
             }
         }
@@ -224,9 +290,15 @@
         .select-main-cont 
         {
             width: 47%;
+            display: -webkit-box;
+            display: -ms-flexbox;
             display: flex;
-            justify-content: space-between;
-            align-items: center;
+            -webkit-box-pack: justify;
+                -ms-flex-pack: justify;
+                    justify-content: space-between;
+            -webkit-box-align: center;
+                -ms-flex-align: center;
+                    align-items: center;
         }
         .contact-select 
         {
@@ -263,16 +335,26 @@
         {
             position: relative;
             background: #525252;
-            box-shadow: 1px 10px 25px 2px rgba(0, 0, 0, .7);
+            -webkit-box-shadow: 1px 10px 25px 2px rgba(0, 0, 0, .7);
+                    box-shadow: 1px 10px 25px 2px rgba(0, 0, 0, .7);
             border-radius: 2px;
             padding: 50px;
            width: 50%;
             /* width: 30em; */
             text-align: center;
+            display: -webkit-box;
+            display: -ms-flexbox;
             display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
+            -webkit-box-orient: vertical;
+            -webkit-box-direction: normal;
+                -ms-flex-direction: column;
+                    flex-direction: column;
+            -webkit-box-pack: center;
+                -ms-flex-pack: center;
+                    justify-content: center;
+            -webkit-box-align: center;
+                -ms-flex-align: center;
+                    align-items: center;
         }
 
         .contact-txt 
@@ -285,6 +367,8 @@
             margin-top: -10px;
             word-spacing: .1px;
             text-align: center; 
+            -webkit-transition: .3s; 
+            -o-transition: .3s; 
             transition: .3s;
             /* ! */
         }
@@ -299,6 +383,8 @@
             padding: 5px 10px;
             padding-right: 20px;
             color: #fafafa;
+            -webkit-transition: .5s;
+            -o-transition: .5s;
             transition: .5s;
             font-size: 18px;
             cursor: pointer;
@@ -306,7 +392,8 @@
         }
         .contact-read-more-btn:hover
         {
-            box-shadow: .5px 1px 10px rgba(255,255,255,.4);
+            -webkit-box-shadow: .5px 1px 10px rgba(255,255,255,.4);
+                    box-shadow: .5px 1px 10px rgba(255,255,255,.4);
             opacity: 1;
         }
         
@@ -316,9 +403,15 @@
             position: relative;
             width: 60px;
             height: 60px;
+            display: -webkit-box;
+            display: -ms-flexbox;
             display: flex;
-            justify-content: center;
-            align-items: center;
+            -webkit-box-pack: center;
+                -ms-flex-pack: center;
+                    justify-content: center;
+            -webkit-box-align: center;
+                -ms-flex-align: center;
+                    align-items: center;
             font-size: 1.8em;
             margin: 30px auto;
             margin-top: 0;
@@ -389,7 +482,9 @@
             {
                 min-height: 90vh;
                 height: auto;
-                justify-content: center;
+                -webkit-box-pack: center;
+                    -ms-flex-pack: center;
+                        justify-content: center;
             }
             
             .headline
@@ -400,7 +495,9 @@
 
             .contact-contaniner
             {
-                align-items: center;
+                -webkit-box-align: center;
+                    -ms-flex-align: center;
+                        align-items: center;
             }
             
             .contact-cont
@@ -417,7 +514,8 @@
             {
                 width: 76%;
                 padding: 3%;
-                box-shadow: none;
+                -webkit-box-shadow: none;
+                        box-shadow: none;
             }
         }
         
@@ -433,6 +531,8 @@
             .nav-arrow-cont.nav-arrow-cont-mobile
             {
                 /* display: block; */
+                display: -webkit-box;
+                display: -ms-flexbox;
                 display: flex;
             }
             
@@ -457,7 +557,8 @@
             .contact-cont 
             {
                 padding: 5%;
-                box-shadow: none;
+                -webkit-box-shadow: none;
+                        box-shadow: none;
                 padding-top: 10%;
                 width: auto;
             }
@@ -465,7 +566,8 @@
             .contact-txt-cont
             {
                 width: 100%;
-                box-shadow: none;
+                -webkit-box-shadow: none;
+                        box-shadow: none;
             }
 
             .arrow

@@ -1,3 +1,10 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
         
 /*--------------------------------------------- GENERALS   */
 
@@ -20,7 +27,9 @@
         .member-hidden-down
         {
             opacity: 0;
-            transform: translate(-50%, -0%) !important;
+            -webkit-transform: translate(-50%, -0%) !important;
+                -ms-transform: translate(-50%, -0%) !important;
+                    transform: translate(-50%, -0%) !important;
         }
         
         a:hover
@@ -39,17 +48,27 @@
             position: absolute;
             top: 5%;
             left: 50%;
-            transform: translateX(-50%);
+            -webkit-transform: translateX(-50%);
+                -ms-transform: translateX(-50%);
+                    transform: translateX(-50%);
             width: 60px;
             height: 60px;
+            display: -webkit-box;
+            display: -ms-flexbox;
             display: flex;
-            justify-content: center;
-            align-items: center;
+            -webkit-box-pack: center;
+                -ms-flex-pack: center;
+                    justify-content: center;
+            -webkit-box-align: center;
+                -ms-flex-align: center;
+                    align-items: center;
             font-size: 2.8em;
             border-radius: 2px;
             /* border: solid 3px rgba(255,255,255,.8); */
             padding: 1px 5px;
             color: #fafafa;
+            -webkit-transition: .3s;
+            -o-transition: .3s;
             transition: .3s;
             cursor: pointer;
             opacity: .9;
@@ -75,14 +94,19 @@
             position: absolute;
             left: 50%;
             bottom: -12%;
-            transform: translate(-50%);
+            -webkit-transform: translate(-50%);
+                -ms-transform: translate(-50%);
+                    transform: translate(-50%);
             border: none;
             padding: 10px 15px;
             font-weight: bolder;
             background: darkorange;
             z-index: 1;
+            -webkit-transition: .3s;
+            -o-transition: .3s;
             transition: .3s;
-            box-shadow: 0px 1px 8px 0px rgba(0, 0, 0, .4);
+            -webkit-box-shadow: 0px 1px 8px 0px rgba(0, 0, 0, .4);
+                    box-shadow: 0px 1px 8px 0px rgba(0, 0, 0, .4);
             border-radius: 2px;
             cursor: pointer;
         }
@@ -99,11 +123,20 @@
         .main-cont
         {
             height: 90vh;
+            display: -webkit-box;
+            display: -ms-flexbox;
             display: flex;
             position: relative;
-            justify-content: center;
-            flex-direction: column;
-            align-items: center;
+            -webkit-box-pack: center;
+                -ms-flex-pack: center;
+                    justify-content: center;
+            -webkit-box-orient: vertical;
+            -webkit-box-direction: normal;
+                -ms-flex-direction: column;
+                    flex-direction: column;
+            -webkit-box-align: center;
+                -ms-flex-align: center;
+                    align-items: center;
             background: url('../images/barbells-on-gray-surface-669584.jpg') center;
             background-size: cover;
         }
@@ -114,8 +147,17 @@
             width: 100%;
             height: 100%;
             background: rgb(142, 84, 233);
-            animation: ani-bg-filter-member 2s forwards ease-in-out;
-            animation-delay: 1.2s;
+            -webkit-animation: ani-bg-filter-member 2s forwards ease-in-out;
+                    animation: ani-bg-filter-member 2s forwards ease-in-out;
+            -webkit-animation-delay: 1.2s;
+                    animation-delay: 1.2s;
+        }
+        @-webkit-keyframes ani-bg-filter-member
+        {
+            to
+            {
+                opacity: .7;
+            }
         }
         @keyframes ani-bg-filter-member
         {
@@ -133,16 +175,26 @@
         {
             position: relative;
             width: 800px;
+            display: -webkit-box;
+            display: -ms-flexbox;
             display: flex;
-            justify-content: space-between;
-            align-items: center;
+            -webkit-box-pack: justify;
+                -ms-flex-pack: justify;
+                    justify-content: space-between;
+            -webkit-box-align: center;
+                -ms-flex-align: center;
+                    align-items: center;
         }
         
         .member-card-cont {
             position: relative;
             border-radius: 2px;
             cursor: pointer;
+            -webkit-transition: .3s;
+            -o-transition: .3s;
             transition: .3s;
+            display: -webkit-box;
+            display: -ms-flexbox;
             display: flex;
         }
         
@@ -163,8 +215,11 @@
             opacity: 0;
             z-index: 5;
              
-            animation: appear-slide-up .2s forwards ease;
-            animation-delay: .3s;
+            -webkit-animation: appear-slide-up .2s forwards ease;
+             
+                    animation: appear-slide-up .2s forwards ease;
+            -webkit-animation-delay: .3s;
+                    animation-delay: .3s;
         }
         .headline:before {
             content: '';
@@ -174,11 +229,14 @@
             background: darkorange;
             bottom: -.5em;
             left: 50%;
-            transform: translateX(-50%);
+            -webkit-transform: translateX(-50%);
+                -ms-transform: translateX(-50%);
+                    transform: translateX(-50%);
         }
-        @keyframes appear-slide-up {
+        @-webkit-keyframes appear-slide-up {
             0% {
-                transform: translateY(70%);
+                -webkit-transform: translateY(70%);
+                        transform: translateY(70%);
                 opacity: 0;
             }
 
@@ -187,7 +245,25 @@
             }
 
             100% {
-                transform: translateY(0);
+                -webkit-transform: translateY(0);
+                        transform: translateY(0);
+                opacity: 1;
+            }
+        }
+        @keyframes appear-slide-up {
+            0% {
+                -webkit-transform: translateY(70%);
+                        transform: translateY(70%);
+                opacity: 0;
+            }
+
+            50% {
+                opacity: 1
+            }
+
+            100% {
+                -webkit-transform: translateY(0);
+                        transform: translateY(0);
                 opacity: 1;
             }
         }
@@ -211,7 +287,9 @@
             position: absolute;
             bottom: -.5em;
             left: 50%;
-            transform: translateX(-50%);
+            -webkit-transform: translateX(-50%);
+                -ms-transform: translateX(-50%);
+                    transform: translateX(-50%);
             width: 30%;
             height: 3px;
             background: darkorange;
@@ -225,10 +303,19 @@
             position: relative;
             width: 260px;
             padding: 45px 42px 15px 42px;
+            display: -webkit-box;
+            display: -ms-flexbox;
             display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
+            -webkit-box-orient: vertical;
+            -webkit-box-direction: normal;
+                -ms-flex-direction: column;
+                    flex-direction: column;
+            -webkit-box-pack: center;
+                -ms-flex-pack: center;
+                    justify-content: center;
+            -webkit-box-align: center;
+                -ms-flex-align: center;
+                    align-items: center;
             background: #525252;
             z-index: 3;
         }
@@ -248,18 +335,27 @@
 
         .member-color-regular {
 
+            background: -webkit-gradient(linear, left top, right top, from(#C04848), to(#480048));
+
+            background: -o-linear-gradient(left, #C04848, #480048);
+
             background: linear-gradient(90deg, #C04848, #480048);
+            background: -webkit-gradient(linear, left top, right top, from(#EC6F66), to(#F3A183));
+            background: -o-linear-gradient(left, #EC6F66, #F3A183);
             background: linear-gradient(90deg, #EC6F66, #F3A183);
         }
 
 
         .member-color-premium {
+            background: -webkit-gradient(linear, left top, right top, from(#C04848), to(#480048));
+            background: -o-linear-gradient(left, #C04848, #480048);
             background: linear-gradient(90deg, #C04848, #480048);
         }
 
         .member-color-vip {
             background: #7474BF;
-            background: -webkit-linear-gradient(to right, #348AC7, #7474BF);
+            background: -webkit-gradient(linear, left top, right top, from(#348AC7), to(#7474BF));
+            background: -o-linear-gradient(left, #348AC7, #7474BF);
             background: linear-gradient(to right, #348AC7, #7474BF);
 
         }
@@ -275,6 +371,8 @@
         }
 
         .member-card-list-cont ul li {
+            display: -webkit-box;
+            display: -ms-flexbox;
             display: flex;
             font-weight: bolder;
             color: #fafafa;
@@ -285,9 +383,15 @@
         .member-card-icons {
             margin-right: 8px;
             width: 30px;
+            display: -webkit-box;
+            display: -ms-flexbox;
             display: flex;
-            justify-content: center;
-            align-items: center;
+            -webkit-box-pack: center;
+                -ms-flex-pack: center;
+                    justify-content: center;
+            -webkit-box-align: center;
+                -ms-flex-align: center;
+                    align-items: center;
         }
 
         .member-card-icon {
@@ -314,7 +418,11 @@
             left: 50%;
             width: 180px;
             height: 190px;
-            transform: translate(-50%, -50%);
+            -webkit-transform: translate(-50%, -50%);
+                -ms-transform: translate(-50%, -50%);
+                    transform: translate(-50%, -50%);
+            -webkit-transition: .4s;
+            -o-transition: .4s;
             transition: .4s;
         }
 
@@ -350,7 +458,9 @@
         
         .member-cards-wide-cont-main.member-cards-wide-slidein
         {
-            transform: translateX(-101%);
+            -webkit-transform: translateX(-101%);
+                -ms-transform: translateX(-101%);
+                    transform: translateX(-101%);
             opacity: 0;
         }
         
@@ -363,10 +473,21 @@
             background: #525252;
             z-index: 8;
             padding: 85px 42px 15px 42px;
+            display: -webkit-box;
+            display: -ms-flexbox;
             display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
+            -webkit-box-orient: vertical;
+            -webkit-box-direction: normal;
+                -ms-flex-direction: column;
+                    flex-direction: column;
+            -webkit-box-pack: center;
+                -ms-flex-pack: center;
+                    justify-content: center;
+            -webkit-box-align: center;
+                -ms-flex-align: center;
+                    align-items: center;
+            -webkit-transition: .3s;
+            -o-transition: .3s;
             transition: .3s;
             opacity: 1;
         }
@@ -397,8 +518,12 @@
         .member-cards-wide-txt-cont
         {
             text-align: center;
+            display: -webkit-box;
+            display: -ms-flexbox;
             display: flex;
-            justify-content: space-between;
+            -webkit-box-pack: justify;
+                -ms-flex-pack: justify;
+                    justify-content: space-between;
             padding: 0;
         }
         
@@ -408,8 +533,12 @@
         {
             width: 100%;
             padding: 0;
+            display: -webkit-box;
+            display: -ms-flexbox;
             display: flex;
-            justify-content: space-between;
+            -webkit-box-pack: justify;
+                -ms-flex-pack: justify;
+                    justify-content: space-between;
         }
         
         .member-cards-wide-txt
@@ -556,6 +685,8 @@
             .nav-arrow-cont.nav-arrow-cont-mobile
             {
                 /* display: block; */
+                display: -webkit-box;
+                display: -ms-flexbox;
                 display: flex;
             }
 
@@ -570,7 +701,10 @@
             
             .member-card-cont-main
             {
-                flex-direction: column;
+                -webkit-box-orient: vertical;
+                -webkit-box-direction: normal;
+                    -ms-flex-direction: column;
+                        flex-direction: column;
             }
             
             .member-card-cont
@@ -586,7 +720,9 @@
             
             .member-card-logo
             {
-                transform: translate(-50%, -40%) scale(.85);
+                -webkit-transform: translate(-50%, -40%) scale(.85);
+                    -ms-transform: translate(-50%, -40%) scale(.85);
+                        transform: translate(-50%, -40%) scale(.85);
             }
             
             
@@ -604,9 +740,16 @@
                 padding: 5% 0;
                 background: #525252;
                 text-align: center;
-                justify-content: space-between;
+                -webkit-box-pack: justify;
+                    -ms-flex-pack: justify;
+                        justify-content: space-between;
+                display: -webkit-box;
+                display: -ms-flexbox;
                 display: flex;
-                flex-direction: column;
+                -webkit-box-orient: vertical;
+                -webkit-box-direction: normal;
+                    -ms-flex-direction: column;
+                        flex-direction: column;
                 z-index: 9;
                 overflow: hidden;
             }
@@ -614,8 +757,12 @@
             .member-color-mobile
             {
                 height: 10%;
+                display: -webkit-box;
+                display: -ms-flexbox;
                 display: flex;
-                align-items: center;
+                -webkit-box-align: center;
+                    -ms-flex-align: center;
+                        align-items: center;
                 padding-left: 10%;
                 font-weight: bolder;
                 color: #fafafa;
@@ -623,10 +770,19 @@
             
             .mobile-wide-content-cont
             {
+                display: -webkit-box;
+                display: -ms-flexbox;
                 display: flex;
-                flex-direction: column;
-                justify-content: center;
-                align-items: center;
+                -webkit-box-orient: vertical;
+                -webkit-box-direction: normal;
+                    -ms-flex-direction: column;
+                        flex-direction: column;
+                -webkit-box-pack: center;
+                    -ms-flex-pack: center;
+                        justify-content: center;
+                -webkit-box-align: center;
+                    -ms-flex-align: center;
+                        align-items: center;
             }
             
             .member-cards-wide-icon

@@ -1,3 +1,10 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
 
 /*-------------------------------------------- GENERALS   */
 
@@ -32,9 +39,15 @@
             width: 100vw;
             background: url('../images/200350.jpg');
             background-size: cover;
+            display: -webkit-box;
+            display: -ms-flexbox;
             display: flex;
-            justify-content: center;
-            align-items: center;
+            -webkit-box-pack: center;
+                -ms-flex-pack: center;
+                    justify-content: center;
+            -webkit-box-align: center;
+                -ms-flex-align: center;
+                    align-items: center;
         }
         .main-cont-booking:before
         {
@@ -43,8 +56,10 @@
             width: 100%;
             height: 100%;
             background: #434343;
-            animation: ani-bg-filter 5s forwards ease-in-out;
-            animation-delay: 2s;
+            -webkit-animation: ani-bg-filter 5s forwards ease-in-out;
+                    animation: ani-bg-filter 5s forwards ease-in-out;
+            -webkit-animation-delay: 2s;
+                    animation-delay: 2s;
         }
 
  
@@ -69,7 +84,9 @@
             position: absolute;
             left: 50%;
             bottom: -.3em;
-            transform: translateX(-50%);
+            -webkit-transform: translateX(-50%);
+                -ms-transform: translateX(-50%);
+                    transform: translateX(-50%);
             width: 10%;
             height: 7px;
             background: darkorange;
@@ -89,9 +106,15 @@
         
         .booking-three-btn
         {
-            justify-content: center;
+            -webkit-box-pack: center;
+                -ms-flex-pack: center;
+                    justify-content: center;
+            display: -webkit-box;
+            display: -ms-flexbox;
             display: flex;
-            align-items: center;
+            -webkit-box-align: center;
+                -ms-flex-align: center;
+                    align-items: center;
             height: 80px;
             margin-bottom: 20px;
         }
@@ -101,7 +124,9 @@
             position: absolute;
             bottom: 5%;
             left: 50%;
-            transform: translateX(-50%);
+            -webkit-transform: translateX(-50%);
+                -ms-transform: translateX(-50%);
+                    transform: translateX(-50%);
             padding: 5px 15px;
             margin-bottom: 2%;
             background: darkorange;
@@ -109,6 +134,8 @@
             border: none;
             border-radius: 2px;
             color: #000;
+            -webkit-transition: .3s;
+            -o-transition: .3s;
             transition: .3s;
             cursor: pointer;
         }
@@ -165,19 +192,31 @@
             position: relative;
             background: #525252;
             width: 95%;
+            display: -webkit-box;
+            display: -ms-flexbox;
             display: flex;
-            justify-content: space-between;
-            flex-direction: column;
-            align-items: center;
+            -webkit-box-pack: justify;
+                -ms-flex-pack: justify;
+                    justify-content: space-between;
+            -webkit-box-orient: vertical;
+            -webkit-box-direction: normal;
+                -ms-flex-direction: column;
+                    flex-direction: column;
+            -webkit-box-align: center;
+                -ms-flex-align: center;
+                    align-items: center;
             padding: 3%;
             border-radius: 2px;
-            box-shadow: .5px .5px 5px rgba(255,255,255,.4);
+            -webkit-box-shadow: .5px .5px 5px rgba(255,255,255,.4);
+                    box-shadow: .5px .5px 5px rgba(255,255,255,.4);
         }
         
         .booking-img
         {
             position: relative;
-            transform: translateY(20%);
+            -webkit-transform: translateY(20%);
+                -ms-transform: translateY(20%);
+                    transform: translateY(20%);
             background: #434343;
         }
         
@@ -187,10 +226,19 @@
 
         .booking-list-cont ul
         {
+            display: -webkit-box;
+            display: -ms-flexbox;
             display: flex;
-            justify-content: space-between;
-            flex-direction: column;
-            align-items: center;
+            -webkit-box-pack: justify;
+                -ms-flex-pack: justify;
+                    justify-content: space-between;
+            -webkit-box-orient: vertical;
+            -webkit-box-direction: normal;
+                -ms-flex-direction: column;
+                    flex-direction: column;
+            -webkit-box-align: center;
+                -ms-flex-align: center;
+                    align-items: center;
         }
         
         .booking-list-cont ul li
@@ -207,8 +255,12 @@
         
         .booking-list-item
         {
+            display: -webkit-box;
+            display: -ms-flexbox;
             display: flex;
-            align-items: center;
+            -webkit-box-align: center;
+                -ms-flex-align: center;
+                    align-items: center;
             font-size: ;
             color: #fafafa;
         }
@@ -246,7 +298,9 @@
             position: absolute;
             top: 0;
             left: 50%;
-            transform: translateX(-50%);
+            -webkit-transform: translateX(-50%);
+                -ms-transform: translateX(-50%);
+                    transform: translateX(-50%);
             background: url('../images/woman-in-red-sports-bra-beside-woman-in-white-sports-bra-3768710.jpg');
             background-size: cover;
             width: 100%;
@@ -258,9 +312,14 @@
         #booking-nav-mobile
         {
             width: 100%;
-            box-shadow: 0px 0px 1px 1px rgba(0,0,0,.2);
-            justify-content: space-between;
-            align-items: center;
+            -webkit-box-shadow: 0px 0px 1px 1px rgba(0,0,0,.2);
+                    box-shadow: 0px 0px 1px 1px rgba(0,0,0,.2);
+            -webkit-box-pack: justify;
+                -ms-flex-pack: justify;
+                    justify-content: space-between;
+            -webkit-box-align: center;
+                -ms-flex-align: center;
+                    align-items: center;
         }
 
         #booking-nav-cont-mobile
@@ -331,7 +390,9 @@
             
             .booking-middle-btn
             {
-                transform: translate(-50%, -50%);
+                -webkit-transform: translate(-50%, -50%);
+                    -ms-transform: translate(-50%, -50%);
+                        transform: translate(-50%, -50%);
             }
 
         }    
@@ -377,7 +438,9 @@
             
             .booking-middle-btn
             {
-                transform: translate(-50%, 0%);
+                -webkit-transform: translate(-50%, 0%);
+                    -ms-transform: translate(-50%, 0%);
+                        transform: translate(-50%, 0%);
             }
             
             .fa-mobile-alt

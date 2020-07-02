@@ -172,8 +172,6 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 ## Known Bugs
 
   - Images are loading slowly - used <a href="https://squoosh.app/index.html">Squoosh</a> to compress the images - faster but still slow
-  - Footer text has a delay (after closing the contact details)
-  - Landing page text block looks a little different on firefox
 
 
 # Deployment

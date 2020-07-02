@@ -1,3 +1,10 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
 /*---------------------------------------------------------   GENERALS   */
 
         * 
@@ -30,10 +37,19 @@
         {
             height: 90vh;
             width: 100vw;
+            display: -webkit-box;
+            display: -ms-flexbox;
             display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
+            -webkit-box-orient: vertical;
+            -webkit-box-direction: normal;
+                -ms-flex-direction: column;
+                    flex-direction: column;
+            -webkit-box-pack: center;
+                -ms-flex-pack: center;
+                    justify-content: center;
+            -webkit-box-align: center;
+                -ms-flex-align: center;
+                    align-items: center;
             overflow: hidden;
             background: url('../images/woman-in-boxing-gloves-with-sports-bra-posing-boxing-style-163351.jpg') center;
             background-size: cover;
@@ -47,8 +63,18 @@
 /*            background: #9bdc28;*/
 /*            background: #D76C66;*/
             background: #2C5990;
-            animation: ani-bg-filter-courses 2s forwards ease-in-out;
-            animation-delay: 1.2s;
+            -webkit-animation: ani-bg-filter-courses 2s forwards ease-in-out;
+                    animation: ani-bg-filter-courses 2s forwards ease-in-out;
+            -webkit-animation-delay: 1.2s;
+                    animation-delay: 1.2s;
+        }
+
+        @-webkit-keyframes ani-bg-filter-courses
+        {
+            to
+            {
+                opacity: .7;
+            }
         }
 
         @keyframes ani-bg-filter-courses
@@ -87,7 +113,9 @@
             position: absolute;
             left: 50%;
             bottom: 5px;
-            transform: translateX(-50%);
+            -webkit-transform: translateX(-50%);
+                -ms-transform: translateX(-50%);
+                    transform: translateX(-50%);
             width: 20%;
             height: 5px;
             background: darkorange;
@@ -115,15 +143,22 @@
 /*      Card Rows         */
         .location-cards-row
         {
+            display: -webkit-box;
+            display: -ms-flexbox;
             display: flex;
-            justify-content: center;
+            -webkit-box-pack: center;
+                -ms-flex-pack: center;
+                    justify-content: center;
             width: 100%;
         }
 
         .location-cards-cont 
         {
+            display: -webkit-box;
+            display: -ms-flexbox;
             display: flex;
-            flex-wrap: wrap;
+            -ms-flex-wrap: wrap;
+                flex-wrap: wrap;
             border-radius: 2px;
             padding: 0 10%;
         }
@@ -139,10 +174,18 @@
             width: 243px;
 /*            width: 260px;*/
 /*            width: 270px;*/
+            display: -webkit-box;
+            display: -ms-flexbox;
             display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: space-around;
+            -webkit-box-orient: vertical;
+            -webkit-box-direction: normal;
+                -ms-flex-direction: column;
+                    flex-direction: column;
+            -webkit-box-align: center;
+                -ms-flex-align: center;
+                    align-items: center;
+            -ms-flex-pack: distribute;
+                justify-content: space-around;
             overflow: hidden;
             cursor: pointer;
         }
@@ -154,7 +197,9 @@
 /*      Location Card Hover - Slide Up Picture     */
         .location-card-cont:hover .location-card-bg 
         {
-            transform: translateY(-101%);
+            -webkit-transform: translateY(-101%);
+                -ms-transform: translateY(-101%);
+                    transform: translateY(-101%);
         }
         .location-card-cont:hover .location-card-location 
         {
@@ -175,8 +220,14 @@
             height: 85%;
             z-index: 3;
             
+            -webkit-transition: .24s;
+            
+            -o-transition: .24s;
+            
             transition: .24s;
-            transition-delay: .3s;
+            -webkit-transition-delay: .3s;
+                 -o-transition-delay: .3s;
+                    transition-delay: .3s;
         }
         
         .locations-strength-bg 
@@ -201,13 +252,15 @@
         {
             background: url('../images/geert-pieters-3RnkZpDqsEI-unsplash.jpg') center;
             background-size: cover;
-            filter: grayscale(.2);
+            -webkit-filter: grayscale(.2);
+                    filter: grayscale(.2);
         }
         
         .locations-water-bg
         {
             background: url('../images/person-swimming-on-body-of-water-863988.jpg') center;
-            filter: grayscale(.5);
+            -webkit-filter: grayscale(.5);
+                    filter: grayscale(.5);
             background-size: cover;
         }
         
@@ -215,7 +268,8 @@
         {
             background: url('../images/perry-grone-lbLgFFlADrY-unsplash.jpg') center;
             background-size: cover;
-            filter: grayscale(.3);
+            -webkit-filter: grayscale(.3);
+                    filter: grayscale(.3);
         }
         
         
@@ -273,18 +327,30 @@
             letter-spacing: 5px;
             bottom: -3%;
             left: 50%;
-            transform: translateX(-50%);
+            -webkit-transform: translateX(-50%);
+                -ms-transform: translateX(-50%);
+                    transform: translateX(-50%);
             font-weight: bolder;
             color: #fafafa;
+            display: -webkit-box;
+            display: -ms-flexbox;
             display: flex;
-            justify-content: center;
-            align-items: center;
+            -webkit-box-pack: center;
+                -ms-flex-pack: center;
+                    justify-content: center;
+            -webkit-box-align: center;
+                -ms-flex-align: center;
+                    align-items: center;
             background: #525252;
             z-index: 3;
             
 /*          Transition            */
+            -webkit-transition: .1s;
+            -o-transition: .1s;
             transition: .1s;
-            transition-delay: .45s;
+            -webkit-transition-delay: .45s;
+                 -o-transition-delay: .45s;
+                    transition-delay: .45s;
         }
         
 
@@ -293,15 +359,24 @@
         .specials-cont,
         .location-card-btn 
         {
-            transform: translateX(-180%);
+            -webkit-transform: translateX(-180%);
+                -ms-transform: translateX(-180%);
+                    transform: translateX(-180%);
             /* transition: .2s; */
             opacity: 0;
             
 /*          Transition  - Animation for Slide in Content   */
-            animation: location-card-slide 1s ease forwards;
-            transition-delay: 1s;
+            -webkit-animation: location-card-slide 1s ease forwards;
+                    animation: location-card-slide 1s ease forwards;
+            -webkit-transition-delay: 1s;
+                 -o-transition-delay: 1s;
+                    transition-delay: 1s;
+            -webkit-transition: .1s;
+            -o-transition: .1s;
             transition: .1s;
-            transition-delay: .5s;
+            -webkit-transition-delay: .5s;
+                 -o-transition-delay: .5s;
+                    transition-delay: .5s;
         }
 
         
@@ -310,7 +385,9 @@
         .location-card-cont:hover .specials-cont,
         .location-card-cont:hover .location-card-btn 
         {
-            transform: translateX(0);
+            -webkit-transform: translateX(0);
+                -ms-transform: translateX(0);
+                    transform: translateX(0);
             opacity: 1;
         }
         
@@ -369,7 +446,8 @@
             
             .location-cards-row
             {
-                flex-wrap: wrap;
+                -ms-flex-wrap: wrap;
+                    flex-wrap: wrap;
             }
             
             .location-card-cont
