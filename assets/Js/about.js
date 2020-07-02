@@ -1,4 +1,3 @@
-        
 // Variables
 const slider = document.querySelector('.about-slider');
 const btns = document.querySelectorAll('.about-bttn');
@@ -105,10 +104,4 @@ slider.addEventListener('transitionend', () => {  // Handles 'Infinite' Slide
 // for Buttons and Options 
 btns.forEach(btn => btn.addEventListener('click', btnCheck));
 options.forEach(option => option.addEventListener('click', optionFunc));
-        
-        
-        
-        
-// !!! Ask Sensei about Automatic Slider
-//setInterval(slide, 1000);
         
