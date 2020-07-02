@@ -64,14 +64,15 @@
     - The images are "sporty" to make the (gym) site look more convinient.
 
 - Wireframes
-  - Home/Landing Page Wireframe <a href="">- here</a>
-  - Courses Page Wireframe <a href="">- here</a>
-  - Locations Page Wireframe <a href="">- here</a>
-  - Membership Page Wireframe <a href="">- here</a>
-  - About Us Page Wireframe <a href="">- here</a>
-  - Contact Us Page Wireframe <a href="">- here</a>
-  - Booking Page Wireframe <a href="">- here</a>
-  - 404 Page Wireframe <a href="">- here</a>
+  - Home/Landing Page Wireframe <a href="https://github.com/RobertMachamud/brand_gym/blob/master/assets/wireframes/landing_page.pdf">- here</a>
+  - Courses Page Wireframe <a href="https://github.com/RobertMachamud/brand_gym/blob/master/assets/wireframes/courses.pdf">- here</a>
+  - Locations Page Wireframe <a href="https://github.com/RobertMachamud/brand_gym/blob/master/assets/wireframes/locations.pdf">- here</a>
+  - Membership Page Wireframe <a href="https://github.com/RobertMachamud/brand_gym/blob/master/assets/wireframes/member.pdf">- here</a>
+  - About Us Page Wireframe <a href="https://github.com/RobertMachamud/brand_gym/blob/master/assets/wireframes/about.pdf">- here</a>
+  - Contact Us Page Wireframe <a href="https://github.com/RobertMachamud/brand_gym/blob/master/assets/wireframes/contact.pdf">- here</a>
+  - Login Page Wireframe <a href="https://github.com/RobertMachamud/brand_gym/blob/master/assets/wireframes/login.pdf">- here</a>
+  - Booking Page Wireframe <a href="https://github.com/RobertMachamud/brand_gym/blob/master/assets/wireframes/booking.pdf">- here</a>
+  - 404 Page Wireframe <a href="https://github.com/RobertMachamud/brand_gym/blob/master/assets/wireframes/err.pdf">- here</a>
 
 
 ## Features
