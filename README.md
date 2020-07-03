@@ -178,7 +178,7 @@ The Freeformatter, W3C CSS Validator Services, and Autoprefixer and were used to
 
 ## Known Bugs
 
-  - Images are loading slowly - I used <a href="https://squoosh.app/index.html">Squoosh</a> to compress the images mostly < 300kb -> it's faster now but still a little slow.
+  - Images are loading slowly - I used <a href="https://squoosh.app/index.html">Squoosh</a> to compress the images - most of them below 300kb -> it's faster now but still a little slow.
     - As I was searching for solutions I consitered "Lazy Loading" i.e. <a href="https://www.sitepoint.com/five-techniques-lazy-load-images-website-performance/">here</a> but the Images are background images - not `<img>`. Apperently JavaScript is needed to solve this problem.
     - I added an animation to solve the problem with the main background images (main containers).
 
